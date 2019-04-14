@@ -1,0 +1,2797 @@
+SEGMENT LIST
+Segment name: 0
+
+Adjacent segments :
+
+
+Included functions:
+
+INSERT-ADJS-WD 6824
+INSERT-ADJS 6788
+SETUP-ORPHAN-NP 6763
+SETUP-ORPHAN 6739
+YES? 6692
+INBUF-PRINT 6663
+INBUF-ADD 6637
+TOO-MANY-NOUNS 6624
+ADJS-PRINT 6585
+NP-PRINT 6506
+WHICH-PRINT 6442
+WHICH-LIST? 6435
+WINNER-SAYS-WHICH? 6434
+NP-CANT-SEE 6402
+CANT-FIND-OBJECT 6387
+MISSING 6377
+DONT-UNDERSTAND 6314
+CHANGE-AND-TO-THEN? 6249
+NAKED-ADJECTIVE? 6214
+PRINT-PARSER-FAILURE 6024
+CAPITALIZE 6013
+BUFFER-PRINT 5929
+COPY-INPUT 5911
+PRINT-LEXV 5859
+PRINT-INTQUOTE 5847
+V-$REFRESH 5838
+REPLACE-ONE-TOKEN 5816
+MAKE-ROOM-FOR-TOKENS 5794
+CANT-USE-MULTIPLE 5781
+CANT-AGAIN 5774
+CANT-OOPS 5765
+NAKED-OOPS 5756
+TOO-MANY-NEW 5747
+ADJ-USED? 5724
+NOUN-USED? 5717
+GET-NP 5706
+GET-OWNER 5691
+SPEAKING-VERB? 5687
+NOT-HERE 5667
+CAPITAL-NOUN? 5664
+D-APPLY 5633
+TELL-D-LOC 5620
+ITAKE-CHECK 5593
+TELL-TOO-DARK 5591
+PERFORM 5439
+SEE-VERB? 5435
+CANT-UNDO 5430
+META-LOC 5419
+QCONTEXT-GOOD? 5414
+TELL-SAID-TO 5408
+FIND-A-WINNER 5397
+NO-M-WINNER-VERB? 5393
+TELL-PRONOUN 5382
+FIX-HIM-HER-IT 5359
+VERB-ALL-TEST 5330
+V-PDEBUG 5311
+MORE-SPECIFIC 5303
+INSERT-WHAT 5293
+RED-CANDO 5132
+RED-NOT 5127
+RED-BE 5122
+RED-SQBN 5115
+P-PP-PREP 5111
+P-PP-OBJ 5103
+RED-SNBAP 5027
+RED-SNBP 4961
+RED-SBNP 4958
+RED-SNBA 4898
+RED-SBNA 4895
+DETERMINE-SUBJ 4832
+RED-SNBN 4773
+RED-SBNN 4770
+EXCH-4-5-Q 4734
+RED-BE-FORM 4729
+RED-QUOTE 4698
+RED-ADJ 4590
+RED-POSS 4577
+RED-PP 4560
+RED-NPP 4470
+RED-QN 4460
+GET-QUANTITY 4455
+GET-QUANTITY-WORD 4451
+RED-QT 4440
+RED-OF 4424
+RED-NP 4381
+RED-VP 4354
+HACK-TELL-1 4331
+HACK-TELL 4301
+RED-PERS 4270
+RED-O-NP 4119
+TEST-SR 4055
+INSERT-NP 4016
+RED-O-PP 3987
+RED-O-ADJ 3974
+DO-ORPHAN-TEST 3973
+DETERMINE-NP-XFER 3951
+READY-TO-DISAMBIGUATE? 3941
+FIND-OWNERS 3929
+DET-NP-OWNEE? 3913
+DET-NP-NOT-HERE? 3898
+DETERMINE-NP 3671
+NUMERIC-ADJ? 3654
+CHECK-DIR-ADJS 3619
+DETERMINE-OBJ 3483
+REDUCE-LOCATION 3392
+REDUCE-EXCEPTION 3363
+REDUCE-EXCEPT-IT 3354
+IREDUCE-EXCEPTION 3343
+RED-SP 3331
+RED-SVD 3319
+RED-SVPNPN 3310
+RED-SVPNN 3259
+RED-SVNPN 3247
+RED-SVNP 3228
+RED-SVN 3171
+ROOT-VERB 3158
+RED-SV 3119
+GET-SYNTAX 3084
+RED-PART 3061
+RED-FCN 3057
+NOT-HERE-VERB? 3056
+TEST-THINGS 3019
+FIND-OBJECTS 2846
+EXCLUDE-HERE-OBJECT? 2845
+SEARCH-IN-LG? 2844
+CHECK-ADJS 2765
+CHECK-ADJS-THERE? 2760
+MULTIPLE-EXCEPTION? 2741
+EVERYWHERE-VERB? 2729
+NOT-IN-FIND-RES? 2705
+ADD-OBJECT 2665
+TEST-OBJECT 2642
+MATCH-OBJECT 2565
+INVALID-OBJECT? 2564
+EXCLUDED? 2545
+FIND-DESCENDANTS 2517
+DO-IT-AGAIN 2488
+TELL-GWIM-MSG 2467
+CHANGE-LEXV 2456
+NUMBER? 2424
+BUZZER-WORD? 2403
+PARSER-ERROR 2370
+NP-SAVE 2332
+DO-AGAIN 2292
+DO-OOPS 2269
+PRINT-VOCAB-WORD 2258
+WORD-PRINT 2249
+UNKNOWN-WORD 2233
+BEG-PARDON 2228
+P-NO-MEM-ROUTINE 2211
+MAIN-LOOP-IT 2200
+FIX-QUOTATIONS 2179
+IGNORE-FIRST-WORD 2167
+LIT? 2126
+QCONTEXT-CHECK 2115
+MAIN-LOOP-1 1863
+MAIN-LOOP 1861
+BE-PATIENT 1831
+GET-NONTERMINAL-ACTION 1821
+GET-TERMINAL-ACTION 1809
+PARSE-SENTENCE 1544
+PARSE-IT 1445
+P-P 1368
+RED-SD 1348
+GAME-VERB? 1339
+PARSER 1165
+NAKED-DIR? 1138
+TELL-CTHE 1122
+TELL-THE 1107
+EXPAND-BE-CONTRACTIONS 1039
+SPECIAL-CONTRACTION? 1038
+READ-INPUT 564
+MOUSE-INPUT? 519
+RT-STOP-READ 517
+RT-FREE-MEM 505
+RT-GET-MEM 499
+RT-DO-OBJECTS 477
+RT-GET-OBJS 448
+RT-GET-PREPS 411
+RT-HLIGHT-MENU 383
+RT-PRINT-MENU-ENTRY 356
+RT-PRINT-MENU 337
+UPDATE-STATUS-LINE 258
+INIT-STATUS-LINE 109
+DO-PMEM-ALLOC 85
+PMEM-RESET 77
+PMEM? 73
+PEEK-PSTACK 64
+
+Included strings:
+
+STR?201 575
+STR?200 573
+STR?199 570
+STR?198 568
+STR?197 567
+STR?196 565
+STR?195 563
+STR?194 561
+STR?193 559
+STR?192 556
+STR?191 554
+STR?190 552
+STR?189 550
+STR?188 549
+STR?187 547
+STR?186 545
+STR?185 543
+STR?184 541
+STR?183 539
+STR?182 499
+STR?181 490
+STR?180 484
+STR?179 478
+STR?178 474
+STR?177 471
+STR?176 469
+STR?175 467
+STR?174 465
+STR?173 463
+STR?172 461
+STR?171 459
+STR?170 456
+STR?169 452
+STR?168 448
+STR?167 445
+STR?166 441
+STR?165 437
+STR?164 434
+STR?163 431
+STR?162 428
+STR?161 427
+STR?160 426
+STR?159 424
+STR?158 423
+STR?157 422
+STR?156 421
+STR?155 420
+STR?154 419
+STR?153 416
+STR?152 414
+STR?151 409
+STR?150 407
+STR?149 406
+STR?148 403
+STR?147 401
+STR?146 398
+STR?145 395
+STR?144 394
+STR?143 392
+STR?142 391
+STR?141 389
+STR?140 387
+STR?139 385
+STR?138 384
+STR?137 380
+STR?136 379
+STR?135 378
+STR?134 377
+STR?133 375
+STR?132 373
+STR?131 372
+STR?130 371
+STR?129 370
+STR?128 368
+STR?127 367
+STR?126 366
+STR?125 365
+STR?124 363
+STR?123 362
+STR?122 294
+STR?121 293
+STR?120 292
+STR?119 291
+STR?118 290
+STR?117 289
+STR?116 288
+STR?115 287
+STR?114 286
+STR?113 285
+STR?112 284
+STR?111 283
+STR?110 282
+STR?109 279
+STR?108 273
+STR?107 272
+STR?106 271
+STR?105 269
+STR?104 268
+STR?103 267
+STR?102 266
+STR?101 265
+STR?100 264
+STR?99 262
+STR?98 261
+STR?97 256
+STR?96 254
+STR?95 253
+STR?94 252
+STR?93 251
+STR?92 250
+STR?91 249
+STR?90 248
+STR?89 246
+STR?88 244
+STR?87 243
+STR?86 242
+STR?85 241
+STR?84 237
+STR?83 236
+STR?82 235
+STR?81 234
+STR?80 232
+STR?79 231
+STR?78 230
+STR?77 229
+STR?76 227
+STR?75 226
+STR?74 225
+STR?73 221
+STR?72 220
+STR?71 219
+STR?70 218
+STR?69 217
+STR?68 216
+STR?67 215
+STR?66 214
+STR?65 213
+STR?64 212
+STR?63 211
+STR?62 210
+STR?61 209
+STR?60 208
+STR?59 207
+STR?58 206
+STR?57 205
+STR?56 204
+STR?55 202
+STR?54 200
+STR?53 198
+STR?52 196
+STR?51 194
+STR?50 192
+STR?49 190
+STR?48 188
+STR?47 185
+STR?46 183
+STR?45 178
+STR?44 176
+STR?43 174
+STR?42 172
+STR?41 170
+STR?40 168
+STR?39 166
+STR?38 164
+STR?37 161
+STR?36 159
+STR?35 157
+STR?34 155
+STR?33 152
+STR?32 150
+STR?31 148
+STR?30 146
+STR?29 144
+STR?28 142
+STR?27 140
+STR?26 138
+STR?25 135
+STR?24 133
+STR?23 131
+STR?22 129
+STR?21 126
+STR?20 124
+STR?19 122
+STR?18 120
+STR?17 118
+STR?16 116
+STR?15 113
+STR?14 110
+STR?13 107
+STR?12 105
+STR?11 103
+STR?10 101
+STR?9 100
+STR?8 98
+STR?7 94
+STR?6 89
+STR?5 84
+STR?4 79
+STR?3 71
+STR?2 66
+STR?1 64
+
+
+
+FUNCTION LIST
+RT-TH-RED-LEVER
+Used functions and strings:
+RT-END-OF-GAME 19085
+
+RT-TH-WINDOW-BENCH
+Used functions and strings:
+
+RT-TH-FUSCHIA-BUTTON
+Used functions and strings:
+
+RT-RM-ALIEN-CHAMBER
+Used functions and strings:
+
+RT-TH-PURPLE-BUTTON
+Used functions and strings:
+
+RT-RM-TRENCH-BOTTOM
+Used functions and strings:
+
+RT-TH-MAGNET
+Used functions and strings:
+
+RT-TH-BIN
+Used functions and strings:
+
+RT-RM-TOOL-ROOM
+Used functions and strings:
+
+RT-GN-STOPPER
+Used functions and strings:
+
+RT-GN-VALVE
+Used functions and strings:
+
+RT-GN-TANK
+Used functions and strings:
+
+RT-TH-HEL-BASE
+Used functions and strings:
+
+RT-TH-HEL-STOPPER
+Used functions and strings:
+
+RT-TH-HEL-VALVE
+Used functions and strings:
+
+RT-TH-HELIUM-TANK
+Used functions and strings:
+
+RT-TH-OXY-BASE
+Used functions and strings:
+
+RT-TH-OXY-STOPPER
+Used functions and strings:
+
+RT-TH-OXY-VALVE
+Used functions and strings:
+
+RT-TH-OXYGEN-TANK
+Used functions and strings:
+
+RT-TH-NIT-BASE
+Used functions and strings:
+
+RT-I-NITROGEN-LEAK
+Used functions and strings:
+RT-NITROGEN-MSG 7688
+RT-I-NITROGEN-LEAK 19844
+RT-QUEUE 7158
+
+RT-GET-STOPPER
+Used functions and strings:
+
+RT-TH-NIT-STOPPER
+Used functions and strings:
+
+RT-TH-NIT-VALVE
+Used functions and strings:
+RT-DEQUEUE 7170
+RT-ALREADY-MSG 19174
+
+RT-TH-NITROGEN-TANK
+Used functions and strings:
+NOUN-USED? 5717
+
+RT-RM-TRI-MIX-STORAGE
+Used functions and strings:
+
+V-$W
+Used functions and strings:
+
+V-$SHOW
+Used functions and strings:
+V-$REFRESH 5838
+RT-CENTER-PIC 19405
+
+V-$D
+Used functions and strings:
+V-$REFRESH 5838
+RT-CENTER-PIC 19405
+
+RT-CENTER-PIC
+Used functions and strings:
+
+V-$P
+Used functions and strings:
+
+RT-WASTE-OF-TIME-MSG
+Used functions and strings:
+
+RT-FOOLISH-TO-TALK?
+Used functions and strings:
+THIS-IS-IT 7051
+RT-NO-RESPONSE-MSG 19348
+
+RT-NO-RESPONSE-MSG
+Used functions and strings:
+RT-PRINT-OBJ 6990
+FIND-FLAG 19166
+
+RT-PICK-NEXT
+Used functions and strings:
+
+RT-NO-POINT-MSG
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+RT-NOT-LIKELY-MSG
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+RT-MOVE-ALL-WORN
+Used functions and strings:
+
+RT-MOVE-ALL-BUT-WORN
+Used functions and strings:
+
+RT-MOVE-ALL
+Used functions and strings:
+
+RT-SEE-ANYTHING-IN?
+Used functions and strings:
+
+RT-SEE-INSIDE?
+Used functions and strings:
+
+RT-FIRST-YOU-MSG
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+GLOBAL-IN?
+Used functions and strings:
+
+PICK-ONE
+Used functions and strings:
+
+WONT-HELP
+Used functions and strings:
+
+RT-IMPOSSIBLE-MSG
+Used functions and strings:
+
+HAR-HAR
+Used functions and strings:
+
+RT-YOU-CANT-MSG
+Used functions and strings:
+RT-PRINT-DESC 6898
+RT-PRINT-OBJ 6990
+
+NO-NEED
+Used functions and strings:
+RT-PRINT-DESC 6898
+RT-PRINT-OBJ 6990
+
+RT-META-IN?
+Used functions and strings:
+
+RT-ALREADY-MSG
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+FIND-FLAG
+Used functions and strings:
+
+FIND-FLAG-LG
+Used functions and strings:
+
+RT-COMMA-MSG
+Used functions and strings:
+
+RT-END-OF-GAME
+Used functions and strings:
+YES? 6692
+V-RESTORE 8504
+V-UNDO 9956
+UPDATE-STATUS-LINE 258
+
+RT-WORD-NUMBERS
+Used functions and strings:
+RT-WORD-NUMBERS 18975
+
+V-DIAGNOSE
+Used functions and strings:
+
+V-SCORE
+Used functions and strings:
+
+RT-SCORE-OBJ
+Used functions and strings:
+RT-SCORE-MSG 18716
+
+RT-SCORE-MSG
+Used functions and strings:
+
+RT-UPDATE-ADJ
+Used functions and strings:
+
+RT-CHECK-ADJ
+Used functions and strings:
+
+Y?
+Used functions and strings:
+
+MAC-II?
+Used functions and strings:
+
+RT-PICK-COLOR
+Used functions and strings:
+
+RT-DO-COLOR
+Used functions and strings:
+
+V-COLOR
+Used functions and strings:
+V-$REFRESH 5838
+
+V-VERSION
+Used functions and strings:
+
+V-$GOTO
+Used functions and strings:
+RT-PRINT-OBJ 6990
+RT-GOTO 10182
+
+V-$STEAL
+Used functions and strings:
+RT-PRINT-OBJ 6990
+RT-DO-TAKE 9685
+
+RT-LG-MONTANA
+Used functions and strings:
+
+RT-LG-TROUGH
+Used functions and strings:
+
+RT-LG-DEEPCORE
+Used functions and strings:
+
+RT-TH-SKY
+Used functions and strings:
+NP-CANT-SEE 6402
+NOUN-USED? 5717
+EVERYWHERE-VERB? 2729
+RT-PRINT-ARTICLE 6903
+
+RT-TH-GROUND
+Used functions and strings:
+RT-PRINT-OBJ 6990
+RT-PRINT-CONTENTS 8508
+RT-PRINT-ARTICLE 6903
+
+RT-TH-PLAYER-BODY
+Used functions and strings:
+
+RT-GN-BODY
+Used functions and strings:
+
+RT-TH-HUMAN-BODY
+Used functions and strings:
+RT-PRINT-OBJ 6990
+NP-CANT-SEE 6402
+VISIBLE? 6834
+GET-NP 5706
+
+RT-YOU
+Used functions and strings:
+PERFORM 5439
+
+RT-GLOBAL-HERE
+Used functions and strings:
+
+RT-TH-KNIFE
+Used functions and strings:
+
+RT-LG-FLOOD-DOOR
+Used functions and strings:
+
+RT-TH-HYDRAULIC-FLUID
+Used functions and strings:
+
+RT-TH-HYDRAULIC-HOSE
+Used functions and strings:
+
+RT-RM-LADDER-B2
+Used functions and strings:
+
+RT-TH-CYCLE
+Used functions and strings:
+
+RT-TH-TREADMILL
+Used functions and strings:
+
+RT-TH-LIFT-BENCH
+Used functions and strings:
+
+RT-TH-WEIGHTS
+Used functions and strings:
+
+RT-TH-BARBELL
+Used functions and strings:
+
+RT-RM-RECREATION-ROOM
+Used functions and strings:
+
+RT-LG-DGS-DOOR
+Used functions and strings:
+
+RT-GN-LOCKER
+Used functions and strings:
+
+RT-TH-BIG-LOCKER
+Used functions and strings:
+RT-SET-PUPPY 10120
+
+RT-TH-BUD-GEAR-LOCKER
+Used functions and strings:
+
+RT-RM-DIVE-GEAR-STORAGE
+Used functions and strings:
+
+RT-I-CATFISH-TRAPPED
+Used functions and strings:
+
+RT-TH-SB-BILGE-BUTTON
+Used functions and strings:
+
+RT-TH-PT-BILGE-BUTTON
+Used functions and strings:
+
+RT-RM-LADDER-D2
+Used functions and strings:
+
+RT-TH-WELDER-CORD
+Used functions and strings:
+
+RT-TH-WELDER-SWITCH
+Used functions and strings:
+RT-TH-ARC-WELDER 17549
+
+RT-TH-BLACK-CABLE
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+RT-TH-RED-CABLE
+Used functions and strings:
+
+RT-TH-WELDING-ROD
+Used functions and strings:
+
+RT-TH-ARC-WELDER
+Used functions and strings:
+
+RT-WELD-CRACK
+Used functions and strings:
+RT-I-BATTERY-LEAK 17103
+RT-DEQUEUE 7170
+
+RT-TH-CRACK
+Used functions and strings:
+
+RT-RM-PT-OBS-DECK
+Used functions and strings:
+
+RT-TH-POOL-OF-WATER
+Used functions and strings:
+
+RT-TH-POWERCEL
+Used functions and strings:
+
+RT-RM-PT-BATTERY-ROOM
+Used functions and strings:
+
+RT-I-BATTERY-LEAK
+Used functions and strings:
+RT-I-BATTERY-LEAK 17103
+RT-QUEUE 7158
+
+RT-I-KLAXON
+Used functions and strings:
+RT-I-KLAXON 17092
+RT-QUEUE 7158
+
+RT-I-HIPPY-RETURN
+Used functions and strings:
+
+RT-I-CRANE-5
+Used functions and strings:
+RT-I-FIRE-1 10897
+RT-QUEUE 7158
+
+RT-I-CRANE-4
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-I-CRANE-3
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-I-CRANE-2
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-I-CRANE-1
+Used functions and strings:
+RT-I-DEEPCORE-TEMP 8329
+RT-QUEUE 7158
+
+RT-RM-TROUGH-LIP
+Used functions and strings:
+RT-DO-WALK 9065
+
+RT-SWIM-TO-FROM-TRENCH
+Used functions and strings:
+CLOCKER 7098
+
+RT-RM-OCEAN-WEST
+Used functions and strings:
+RT-DO-WALK 9065
+
+RT-RM-OCEAN-SOUTH
+Used functions and strings:
+
+RT-RM-OCEAN-NORTH
+Used functions and strings:
+
+RT-RM-UNDER-MOONPOOL
+Used functions and strings:
+
+V-$NITROGEN
+Used functions and strings:
+
+RT-TH-DEVICE
+Used functions and strings:
+
+RT-TH-ELECTRONIC-LOCK
+Used functions and strings:
+
+RT-TH-DIVE-LOCKER
+Used functions and strings:
+
+RT-TH-FBS-SUIT
+Used functions and strings:
+
+RT-TH-GUN
+Used functions and strings:
+
+RT-TH-DISCHARGE
+Used functions and strings:
+
+RT-TH-PASSPORT
+Used functions and strings:
+
+RT-TH-DRYER
+Used functions and strings:
+THIS-IS-IT 7051
+
+RT-TH-STEEL-KEY
+Used functions and strings:
+ITAKE 9661
+
+RT-TH-CLUE-PAPER
+Used functions and strings:
+
+RT-TH-STEEL-BOX
+Used functions and strings:
+
+RT-TH-CATFISH-LOCKER
+Used functions and strings:
+
+RT-I-DETONATOR
+Used functions and strings:
+ACCESSIBLE? 6847
+META-LOC 5419
+
+RT-TH-DETONATOR
+Used functions and strings:
+RT-DEQUEUE 7170
+RT-QUEUE 7158
+NOUN-USED? 5717
+
+RT-TH-PLASTIQUE
+Used functions and strings:
+RT-PRINT-OBJ 6990
+ITAKE 9661
+
+RT-TH-PLASTIC-CARD
+Used functions and strings:
+
+RT-TH-SAFE
+Used functions and strings:
+RT-PRINT-CONTENTS 8508
+NOUN-USED? 5717
+
+RT-TH-PHOTOGRAPH
+Used functions and strings:
+
+RT-RM-CAPTAINS-ROOM
+Used functions and strings:
+
+RT-RM-SUB-CORRIDOR
+Used functions and strings:
+
+RT-LG-BUCKLED-DOOR
+Used functions and strings:
+
+RT-THRU-BUCKLED-DOOR
+Used functions and strings:
+
+RT-RM-COMM-ROOM
+Used functions and strings:
+
+RT-RM-SONAR-ROOM
+Used functions and strings:
+
+RT-RM-ATTACK-CENTER
+Used functions and strings:
+
+RT-TH-MISSILE-ACCESS-KEY
+Used functions and strings:
+
+RT-RM-MISSILE-ROOM
+Used functions and strings:
+
+RT-RM-ENGINE-ROOM
+Used functions and strings:
+
+RT-RM-TORPEDO-ROOM
+Used functions and strings:
+
+RT-RM-BOW
+Used functions and strings:
+
+RT-I-OUT-OF-AIR-2
+Used functions and strings:
+
+RT-I-OUT-OF-AIR-1
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-I-INTO-TRENCH-2
+Used functions and strings:
+
+RT-I-INTO-TRENCH-1
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-TH-WIRE-CUTTERS
+Used functions and strings:
+
+RT-CORRECT-WIRE?
+Used functions and strings:
+
+RT-TH-WIRE
+Used functions and strings:
+RT-PRINT-OBJ 6990
+RT-QUEUE 7158
+
+RT-TH-WIRES
+Used functions and strings:
+
+RT-TH-MISSILE-PANEL
+Used functions and strings:
+
+RT-TH-MISSILE-TIMER
+Used functions and strings:
+
+RT-TH-MISSILE
+Used functions and strings:
+
+RT-RM-MISSILE-HATCH
+Used functions and strings:
+
+RT-TO-TRENCH-BOTTOM
+Used functions and strings:
+
+RT-LG-MIDSHIP-HATCH
+Used functions and strings:
+
+RT-RM-MIDSHIP-HATCH
+Used functions and strings:
+
+RT-TH-DESCRAMBLER-CONTROL-BOX
+Used functions and strings:
+
+RT-PUMP-MENU
+Used functions and strings:
+PIXELS-L 7204
+MOUSE-INPUT? 519
+CCURSET 7208
+UPDATE-STATUS-LINE 258
+C-PIXELS 7192
+L-PIXELS 7196
+
+RT-SUPPORT-MENU
+Used functions and strings:
+PIXELS-L 7204
+MOUSE-INPUT? 519
+RT-PRINT-FLOAT 7648
+CCURSET 7208
+UPDATE-STATUS-LINE 258
+C-PIXELS 7192
+L-PIXELS 7196
+
+RT-LIGHT-MENU
+Used functions and strings:
+UPDATE-STATUS-LINE 258
+
+RT-POWER-MENU
+Used functions and strings:
+UPDATE-STATUS-LINE 258
+
+RT-GAS-LEVEL-MSG
+Used functions and strings:
+
+RT-AIR-MENU
+Used functions and strings:
+RT-PRINT-FLOAT 7648
+CCURSET 7208
+UPDATE-STATUS-LINE 258
+
+RT-ROV-MENU
+Used functions and strings:
+UPDATE-STATUS-LINE 258
+
+RT-EMERGENCY-MENU
+Used functions and strings:
+RT-DEQUEUE 7170
+RT-QUEUE 7158
+PIXELS-L 7204
+MOUSE-INPUT? 519
+CCURSET 7208
+UPDATE-STATUS-LINE 258
+C-PIXELS 7192
+L-PIXELS 7196
+
+RT-COMMAND-MENU
+Used functions and strings:
+INIT-STATUS-LINE 109
+PIXELS-L 7204
+MOUSE-INPUT? 519
+RT-STOP-READ 517
+CCURSET 7208
+UPDATE-STATUS-LINE 258
+C-PIXELS 7192
+L-PIXELS 7196
+
+RT-TH-COMMAND-CHAIR
+Used functions and strings:
+
+RT-TH-MONITORS
+Used functions and strings:
+
+RT-RM-COMMAND-MODULE
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+RT-RM-LADDER-C3
+Used functions and strings:
+
+RT-RM-TAPE-LIBRARY
+Used functions and strings:
+
+RT-RM-LAB
+Used functions and strings:
+
+RT-TH-ELEC-SHOP-DRAWER
+Used functions and strings:
+
+RT-RM-ELECTRONICS-SHOP
+Used functions and strings:
+
+RT-RM-COMPUTER-CENTER
+Used functions and strings:
+
+RT-RM-SB-OBS-DECK
+Used functions and strings:
+
+RT-RM-LADDER-B3
+Used functions and strings:
+
+RT-RM-LADDER-D3
+Used functions and strings:
+
+RT-RM-SWAMP
+Used functions and strings:
+
+RT-RM-PERSONAL-STORAGE-2
+Used functions and strings:
+
+RT-RM-MOTEL-QUICK
+Used functions and strings:
+
+RT-RM-PT-HEAD
+Used functions and strings:
+
+RT-RM-LADDER-A3
+Used functions and strings:
+
+RT-RM-LADDER-C1
+Used functions and strings:
+
+RT-RM-FRESH-WATER-STORAGE
+Used functions and strings:
+
+RT-RM-PUMP-ROOM
+Used functions and strings:
+
+RT-RM-SB-LIFE-SUPPORT
+Used functions and strings:
+
+RT-RM-SB-HEAD
+Used functions and strings:
+
+RT-RM-SB-BATTERY-ROOM
+Used functions and strings:
+
+RT-RM-LADDER-B1
+Used functions and strings:
+
+RT-RM-DRILL-ROOM
+Used functions and strings:
+
+RT-RM-TOOL-PUSHER-OFFICE
+Used functions and strings:
+
+RT-RM-LADDER-D1
+Used functions and strings:
+
+RT-TH-COMPRESSOR
+Used functions and strings:
+
+RT-RM-COMPRESSOR-ROOM
+Used functions and strings:
+
+RT-RM-PT-LIFE-SUPPORT
+Used functions and strings:
+
+RT-RM-LAUNDRY
+Used functions and strings:
+
+RT-RM-LADDER-A1
+Used functions and strings:
+
+RT-TH-S-BILGE-BUTT
+Used functions and strings:
+
+RT-RM-LADDER-C2
+Used functions and strings:
+
+RT-RM-ZOOTOWN
+Used functions and strings:
+
+RT-RM-PERSONAL-STORAGE-1
+Used functions and strings:
+
+RT-RM-WALDORF
+Used functions and strings:
+
+RT-TH-GAME-BAG
+Used functions and strings:
+
+RT-TH-HOOK-2
+Used functions and strings:
+
+RT-RM-PANTRY
+Used functions and strings:
+
+RT-RM-GALLEY
+Used functions and strings:
+
+RT-RM-MESS-HALL
+Used functions and strings:
+
+RT-RM-INFIRMARY
+Used functions and strings:
+
+RT-RM-LOUNGE
+Used functions and strings:
+
+RT-RM-LADDER-A2
+Used functions and strings:
+
+RT-TH-PANEL
+Used functions and strings:
+
+RT-RM-CORRIDOR
+Used functions and strings:
+RT-CLEAR-PUPPY 10124
+RT-PRINT-OBJ 6990
+
+RT-RM-GAS-MIX-ROOM
+Used functions and strings:
+RT-OPEN-MSG 7086
+
+RT-TH-CAB-HOOKAH
+Used functions and strings:
+RT-QUEUE 7158
+RT-DEQUEUE 7170
+
+RT-I-CAB-FIXED
+Used functions and strings:
+
+RT-OUT-CAB
+Used functions and strings:
+
+RT-RM-CAB-THREE
+Used functions and strings:
+CLOCKER 7098
+
+RT-I-UFO-MESSAGE
+Used functions and strings:
+
+RT-I-RETURN-4
+Used functions and strings:
+
+RT-I-RETURN-3
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-I-RETURN-2
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-I-RETURN-1
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-I-LEAVE-4
+Used functions and strings:
+
+RT-I-LEAVE-3
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-I-LEAVE-2
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-I-LEAVE-1
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-LG-CHAMBER-HATCH
+Used functions and strings:
+RT-QUEUE 7158
+RT-DEQUEUE 7170
+
+RT-RM-COMPRESSION-CHAMBER
+Used functions and strings:
+RT-DEQUEUE 7170
+RT-IS-QUEUED? 7183
+RT-PRINT-OBJ 6990
+
+RT-TH-RED-BUTTON
+Used functions and strings:
+
+RT-TH-CO2-CANNISTER
+Used functions and strings:
+
+RT-TH-LIFT-BAG
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+RT-TH-HOOK-1
+Used functions and strings:
+
+RT-TH-HELMET
+Used functions and strings:
+RT-OPEN-MSG 7086
+
+RT-TH-FACEPLATE
+Used functions and strings:
+RT-OPEN-MSG 7086
+
+RT-TH-DRY-SUIT
+Used functions and strings:
+RT-PRINT-OBJ 6990
+RT-OPEN-MSG 7086
+
+RT-CH-ONE-NIGHT
+Used functions and strings:
+
+RT-CH-COFFEY
+Used functions and strings:
+
+RT-TH-OXYGEN-CYLINDER
+Used functions and strings:
+
+RT-TH-NOZZLE
+Used functions and strings:
+
+RT-TH-WATER-HOSE
+Used functions and strings:
+
+RT-I-FIRE-2
+Used functions and strings:
+
+RT-I-FIRE-1
+Used functions and strings:
+RT-QUEUE 7158
+
+RT-TH-FIRE
+Used functions and strings:
+RT-DEQUEUE 7170
+
+RT-TH-MOON-POOL
+Used functions and strings:
+RT-DO-WALK 9065
+
+RT-RM-SUB-BAY
+Used functions and strings:
+GAME-VERB? 1339
+RT-PRINT-OBJ 6990
+
+V-HOW
+Used functions and strings:
+V-BE 10283
+
+V-WHY
+Used functions and strings:
+V-BE 10283
+
+V-WHERE
+Used functions and strings:
+V-BE 10283
+
+V-WHEN
+Used functions and strings:
+V-BE 10283
+
+V-WHAT
+Used functions and strings:
+V-BE 10283
+
+V-WHO
+Used functions and strings:
+V-BE 10283
+
+V-BE?
+Used functions and strings:
+V-BE 10283
+
+V-MUST?
+Used functions and strings:
+YES-BUT? 10530
+
+V-WILL?
+Used functions and strings:
+YES-BUT? 10530
+
+V-MIGHT?
+Used functions and strings:
+YES-BUT? 10530
+
+V-SHOULD?
+Used functions and strings:
+YES-BUT? 10530
+
+V-WOULD?
+Used functions and strings:
+YES-BUT? 10530
+
+V-COULD?
+Used functions and strings:
+YES-BUT? 10530
+
+V-DO?
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-MAY?
+Used functions and strings:
+YES-BUT? 10530
+
+V-CAN?
+Used functions and strings:
+YES-BUT? 10530
+
+YES-BUT?
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+IS-PRSO-ADJ?
+Used functions and strings:
+
+PRSO-IS
+Used functions and strings:
+RT-PRINT-VERB 7020
+RT-PRINT-OBJ 6990
+
+IS-HERE?
+Used functions and strings:
+
+IS-ALIVE?
+Used functions and strings:
+
+IS-DEAD?
+Used functions and strings:
+
+IS-UNLOCKED?
+Used functions and strings:
+
+IS-LOCKED?
+Used functions and strings:
+
+IS-CLOSED?
+Used functions and strings:
+
+IS-OPEN?
+Used functions and strings:
+
+IS-OUTSIDE?
+Used functions and strings:
+
+IS-QUIET?
+Used functions and strings:
+
+RIGHT-PREP?
+Used functions and strings:
+
+TELL-Q-WORD
+Used functions and strings:
+
+V-BE
+Used functions and strings:
+RT-IN-ON-MSG 7068
+META-LOC 5419
+RT-PRINT-VERB 7020
+NP-PRINT 6506
+P-PP-OBJ 5103
+P-PP-PREP 5111
+RT-PRINT-OBJ 6990
+
+V-STATEMENT
+Used functions and strings:
+
+V-YES
+Used functions and strings:
+
+V-WELD
+Used functions and strings:
+
+V-WEAR
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+RT-WALK-WITHIN-ROOM-MSG
+Used functions and strings:
+
+V-WALK-TO
+Used functions and strings:
+
+V-WALK-AROUND
+Used functions and strings:
+
+RT-ROOM-NAME-MSG
+Used functions and strings:
+RT-PRINT-DESC 6898
+
+RT-ENTER-ROOM
+Used functions and strings:
+RT-DESCRIBE-OBJECTS 8549
+RT-DESCRIBE-ROOM 8646
+LIT? 2126
+
+RT-GOTO
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+WALK-THRU-DOOR?
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-WALK
+Used functions and strings:
+
+RT-CLEAR-PUPPY
+Used functions and strings:
+
+RT-SET-PUPPY
+Used functions and strings:
+
+RT-FIND-ROOM
+Used functions and strings:
+
+RT-FIND-DIR
+Used functions and strings:
+
+V-WAIT
+Used functions and strings:
+RT-PRINT-OBJ 6990
+ADJ-USED? 5724
+NOUN-USED? 5717
+
+V-UNWEAR
+Used functions and strings:
+PERFORM 5439
+RT-PRINT-OBJ 6990
+
+V-UNLOCK
+Used functions and strings:
+RT-OPEN-DOOR-MSG 9335
+RT-PRINT-OBJ 6990
+RT-MATCH-KEY 9293
+
+V-UNDO
+Used functions and strings:
+
+V-TURN-TO
+Used functions and strings:
+
+V-TURN-ON
+Used functions and strings:
+
+V-TURN-OFF
+Used functions and strings:
+
+V-TURN
+Used functions and strings:
+
+V-TIE-TO
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-THANK
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-TELL-ABOUT
+Used functions and strings:
+RT-PRINT-OBJ 6990
+PERFORM 5439
+
+WONT-HELP-TO-TALK-TO
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-TELL
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-TALK-TO
+Used functions and strings:
+
+V-TAKE-WITH
+Used functions and strings:
+
+V-TAKE
+Used functions and strings:
+RT-PRINT-OBJ 6990
+ITAKE 9661
+
+PRE-TAKE-WITH
+Used functions and strings:
+RT-IN-ON-MSG 7068
+RT-PRINT-OBJ 6990
+NOT-HERE 5667
+HELD? 8684
+META-LOC 5419
+
+PRE-TAKE
+Used functions and strings:
+RT-PRINT-OBJ 6990
+RT-IN-ON-MSG 7068
+NOT-HERE 5667
+
+RT-DO-TAKE
+Used functions and strings:
+
+ITAKE
+Used functions and strings:
+RT-PRINT-OBJ 6990
+RT-OBJ-TOO-LARGE? 9564
+
+V-SIT
+Used functions and strings:
+
+V-SHOW-SWP
+Used functions and strings:
+PERFORM 5439
+
+V-SHOW
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-READ
+Used functions and strings:
+
+V-REACH-UNDER
+Used functions and strings:
+
+V-REACH-IN
+Used functions and strings:
+
+V-REACH-BEHIND
+Used functions and strings:
+
+RT-CHECK-MOVE-MSG?
+Used functions and strings:
+RT-IN-ON-MSG 7068
+RT-PRINT-OBJ 6990
+
+RT-ROOM-IN-MSG?
+Used functions and strings:
+RT-PRINT-OBJ 6990
+RT-IN-ON-MSG 7068
+RT-OBJ-TOO-LARGE? 9564
+
+RT-OBJ-TOO-LARGE?
+Used functions and strings:
+RT-TOTAL-SIZE 9555
+
+RT-TOTAL-SIZE
+Used functions and strings:
+
+RT-PUT-ON-OR-IN
+Used functions and strings:
+HELD? 8684
+RT-PRINT-OBJ 6990
+RT-IN-ON-MSG 7068
+
+V-PUT-IN
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+PRE-PUT-IN
+Used functions and strings:
+TELL-FIND-NONE 9473
+PRE-PUT 9451
+
+TELL-FIND-NONE
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-PUT
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+PRE-PUT
+Used functions and strings:
+HELD? 8684
+NOT-HERE 5667
+
+V-PUSH
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-PULL
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-PLUG-IN
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-OPEN
+Used functions and strings:
+RT-OPEN-DOOR-MSG 9335
+RT-MATCH-KEY 9293
+RT-PRINT-OBJ 6990
+
+RT-OPEN-DOOR-MSG
+Used functions and strings:
+RT-PRINT-CONTENTS 8508
+RT-PRINT-VERB 7020
+RT-OTHER-SIDE 9298
+RT-PRINT-OBJ 6990
+RT-LOCK-MSG 9311
+
+RT-LOCK-MSG
+Used functions and strings:
+RT-PRINT-VERB 7020
+RT-PRINT-OBJ 6990
+
+RT-OTHER-SIDE
+Used functions and strings:
+
+RT-MATCH-KEY
+Used functions and strings:
+
+V-NO
+Used functions and strings:
+
+V-MOVE
+Used functions and strings:
+
+V-LOOK-ON
+Used functions and strings:
+RT-PRINT-OBJ 6990
+V-LOOK-IN 9222
+
+TELL-CANT-FIND
+Used functions and strings:
+
+V-LOOK-IN
+Used functions and strings:
+RT-IN-ON-MSG 7068
+RT-PRINT-CONTENTS 8508
+RT-PRINT-OBJ 6990
+PERFORM 5439
+
+V-LOOK-UNDER
+Used functions and strings:
+
+V-LOOK-BEHIND
+Used functions and strings:
+
+V-LOOK
+Used functions and strings:
+RT-DESCRIBE-OBJECTS 8549
+RT-DESCRIBE-ROOM 8646
+
+V-LOCK
+Used functions and strings:
+RT-PRINT-VERB 7020
+RT-PRINT-OBJ 6990
+
+V-LISTEN
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-LIFT
+Used functions and strings:
+
+V-INFLATE
+Used functions and strings:
+
+V-HIT
+Used functions and strings:
+
+V-GIVE-SWP
+Used functions and strings:
+PERFORM 5439
+
+V-GIVE
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-FOLLOW
+Used functions and strings:
+
+V-EXTINGUISH
+Used functions and strings:
+
+RT-NOTHING-SPECIAL-MSG
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-EXAMINE
+Used functions and strings:
+RT-OPEN-MSG 7086
+RT-PRINT-OBJ 6990
+PERFORM 5439
+
+RT-DO-WALK
+Used functions and strings:
+PERFORM 5439
+
+RT-NOT-IN-ROOM-MSG
+Used functions and strings:
+RT-IN-ON-MSG 7068
+RT-PRINT-OBJ 6990
+
+V-EXIT
+Used functions and strings:
+PERFORM 5439
+RT-IN-ON-MSG 7068
+RT-OUT-OFF-MSG 7077
+RT-PRINT-OBJ 6990
+
+V-ENTER
+Used functions and strings:
+RT-PRINT-OBJ 6990
+RT-IN-ON-MSG 7068
+
+V-EMPTY-FROM
+Used functions and strings:
+PERFORM 5439
+RT-IN-ON-MSG 7068
+RT-PRINT-OBJ 6990
+
+RT-EMPTY-MSG
+Used functions and strings:
+PERFORM 5439
+RT-PRINT-OBJ 6990
+RT-IN-ON-MSG 7068
+
+V-EMPTY
+Used functions and strings:
+
+PRE-EMPTY
+Used functions and strings:
+RT-PRINT-OBJ 6990
+PERFORM 5439
+
+V-DROP
+Used functions and strings:
+RT-IN-ON-MSG 7068
+RT-PRINT-OBJ 6990
+IDROP 8737
+
+IDROP
+Used functions and strings:
+RT-PRINT-OBJ 6990
+NOT-HOLDING? 8672
+
+V-CUT
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-CLOSE
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-ATTACH
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-ASK-ABOUT
+Used functions and strings:
+
+TOO-DARK
+Used functions and strings:
+
+HELD?
+Used functions and strings:
+
+NOT-HOLDING?
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+RT-DESCRIBE-ROOM
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+RT-DESCRIBE-OBJECTS
+Used functions and strings:
+RT-DESCRIBE-OBJECTS 8549
+THIS-IS-IT 7051
+RT-PRINT-OBJ 6990
+RT-IN-ON-MSG 7068
+
+RT-PRINT-CONTENTS
+Used functions and strings:
+RT-PRINT-CONTENTS 8508
+RT-IN-ON-MSG 7068
+THIS-IS-IT 7051
+RT-PRINT-OBJ 6990
+
+V-RESTORE
+Used functions and strings:
+RT-FAILED-MSG 8478
+
+V-SAVE
+Used functions and strings:
+RT-FAILED-MSG 8478
+V-$REFRESH 5838
+
+V-RESTART
+Used functions and strings:
+RT-FAILED-MSG 8478
+
+RT-FAILED-MSG
+Used functions and strings:
+
+V-QUIT
+Used functions and strings:
+
+V-INVENTORY
+Used functions and strings:
+RT-PRINT-OBJ 6990
+
+V-UNRECORD
+Used functions and strings:
+
+V-RECORD
+Used functions and strings:
+
+V-COMMAND
+Used functions and strings:
+
+V-VERIFY
+Used functions and strings:
+DONT-UNDERSTAND 6314
+
+V-SCRIPT
+Used functions and strings:
+
+V-DESC-LEVEL
+Used functions and strings:
+
+RT-I-TEMP
+Used functions and strings:
+RT-TEMP-MSG 8161
+RT-I-TEMP 8336
+RT-QUEUE 7158
+
+RT-I-DEEPCORE-TEMP
+Used functions and strings:
+RT-I-DEEPCORE-TEMP 8329
+RT-QUEUE 7158
+
+RT-TEMP-MSG
+Used functions and strings:
+
+RT-TH-THERMOMETER
+Used functions and strings:
+RT-PRINT-FLOAT 7648
+
+V-$HEAT
+Used functions and strings:
+
+RT-I-GAS-MIX
+Used functions and strings:
+RT-CO2-MSG 8027
+RT-OXYGEN-MSG 7853
+RT-I-GAS-MIX 8116
+RT-QUEUE 7158
+
+RT-CO2-MSG
+Used functions and strings:
+
+RT-OXYGEN-MSG
+Used functions and strings:
+
+RT-NITROGEN-MSG
+Used functions and strings:
+
+RT-PRINT-FLOAT
+Used functions and strings:
+RT-NUM-DIGITS 7638
+
+RT-NUM-DIGITS
+Used functions and strings:
+
+V-$AIR
+Used functions and strings:
+
+V-$SCRUB
+Used functions and strings:
+
+GO
+Used functions and strings:
+MAIN-LOOP 1861
+RT-QUEUE 7158
+UPDATE-STATUS-LINE 258
+INIT-STATUS-LINE 109
+
+RT-SCRIPT-INBUF
+Used functions and strings:
+
+CSCROLL
+Used functions and strings:
+
+CWINSIZE
+Used functions and strings:
+
+CWINPOS
+Used functions and strings:
+C-PIXELS 7192
+L-PIXELS 7196
+
+CSPLIT
+Used functions and strings:
+
+CCURGET
+Used functions and strings:
+PIXELS-C 7200
+PIXELS-L 7204
+
+CCURSET
+Used functions and strings:
+C-PIXELS 7192
+L-PIXELS 7196
+
+PIXELS-L
+Used functions and strings:
+
+PIXELS-C
+Used functions and strings:
+
+L-PIXELS
+Used functions and strings:
+
+C-PIXELS
+Used functions and strings:
+
+RT-IS-QUEUED?
+Used functions and strings:
+
+RT-DEQUEUE
+Used functions and strings:
+
+RT-QUEUE
+Used functions and strings:
+
+CLOCKER
+Used functions and strings:
+YES? 6692
+UPDATE-STATUS-LINE 258
+
+TOUCH-VERB?
+Used functions and strings:
+
+RT-OPEN-MSG
+Used functions and strings:
+
+RT-OUT-OFF-MSG
+Used functions and strings:
+
+RT-IN-ON-MSG
+Used functions and strings:
+
+THIS-IS-IT
+Used functions and strings:
+
+RT-PRINT-VERB
+Used functions and strings:
+
+RT-PRINT-OBJ
+Used functions and strings:
+RT-PRINT-DESC 6898
+RT-PRINT-ARTICLE 6903
+
+RT-PRINT-ARTICLE
+Used functions and strings:
+
+RT-PRINT-DESC
+Used functions and strings:
+
+ACCESSIBLE?
+Used functions and strings:
+CLOSED? 6837
+
+CLOSED?
+Used functions and strings:
+
+VISIBLE?
+Used functions and strings:
+
+INSERT-ADJS-WD
+Used functions and strings:
+INBUF-PRINT 6663
+MAKE-ROOM-FOR-TOKENS 5794
+
+INSERT-ADJS
+Used functions and strings:
+PMEM? 73
+
+SETUP-ORPHAN-NP
+Used functions and strings:
+
+SETUP-ORPHAN
+Used functions and strings:
+MAKE-ROOM-FOR-TOKENS 5794
+
+YES?
+Used functions and strings:
+
+INBUF-PRINT
+Used functions and strings:
+PRINT-VOCAB-WORD 2258
+
+INBUF-ADD
+Used functions and strings:
+
+TOO-MANY-NOUNS
+Used functions and strings:
+PRINT-VOCAB-WORD 2258
+
+ADJS-PRINT
+Used functions and strings:
+PRINT-VOCAB-WORD 2258
+CAPITALIZE 6013
+CAPITAL-NOUN? 5664
+NP-PRINT 6506
+
+NP-PRINT
+Used functions and strings:
+PMEM? 73
+PRINT-VOCAB-WORD 2258
+BUFFER-PRINT 5929
+GET-QUANTITY-WORD 4451
+NP-PRINT 6506
+TELL-THE 1107
+
+WHICH-PRINT
+Used functions and strings:
+WHICH-LIST? 6435
+
+WHICH-LIST?
+Used functions and strings:
+
+WINNER-SAYS-WHICH?
+Used functions and strings:
+
+NP-CANT-SEE
+Used functions and strings:
+MORE-SPECIFIC 5303
+GET-NP 5706
+
+CANT-FIND-OBJECT
+Used functions and strings:
+PRINT-VOCAB-WORD 2258
+
+MISSING
+Used functions and strings:
+
+DONT-UNDERSTAND
+Used functions and strings:
+
+CHANGE-AND-TO-THEN?
+Used functions and strings:
+
+NAKED-ADJECTIVE?
+Used functions and strings:
+
+PRINT-PARSER-FAILURE
+Used functions and strings:
+PARSE-IT 1445
+PRINT-LEXV 5859
+CHANGE-LEXV 2456
+CANT-USE-MULTIPLE 5781
+PRINT-VOCAB-WORD 2258
+ROOT-VERB 3158
+TELL-THE 1107
+MAKE-ROOM-FOR-TOKENS 5794
+
+CAPITALIZE
+Used functions and strings:
+WORD-PRINT 2249
+
+BUFFER-PRINT
+Used functions and strings:
+WORD-PRINT 2249
+CAPITAL-NOUN? 5664
+
+COPY-INPUT
+Used functions and strings:
+PRINT-LEXV 5859
+
+PRINT-LEXV
+Used functions and strings:
+PRINT-VOCAB-WORD 2258
+CAPITAL-NOUN? 5664
+
+PRINT-INTQUOTE
+Used functions and strings:
+GET-NP 5706
+
+V-$REFRESH
+Used functions and strings:
+INIT-STATUS-LINE 109
+
+REPLACE-ONE-TOKEN
+Used functions and strings:
+TOO-MANY-NEW 5747
+MAKE-ROOM-FOR-TOKENS 5794
+
+MAKE-ROOM-FOR-TOKENS
+Used functions and strings:
+TOO-MANY-NEW 5747
+
+CANT-USE-MULTIPLE
+Used functions and strings:
+PRINT-VOCAB-WORD 2258
+
+CANT-AGAIN
+Used functions and strings:
+
+CANT-OOPS
+Used functions and strings:
+
+NAKED-OOPS
+Used functions and strings:
+
+TOO-MANY-NEW
+Used functions and strings:
+
+ADJ-USED?
+Used functions and strings:
+GET-NP 5706
+
+NOUN-USED?
+Used functions and strings:
+GET-NP 5706
+
+GET-NP
+Used functions and strings:
+
+GET-OWNER
+Used functions and strings:
+
+SPEAKING-VERB?
+Used functions and strings:
+
+NOT-HERE
+Used functions and strings:
+
+CAPITAL-NOUN?
+Used functions and strings:
+
+D-APPLY
+Used functions and strings:
+
+TELL-D-LOC
+Used functions and strings:
+
+ITAKE-CHECK
+Used functions and strings:
+
+TELL-TOO-DARK
+Used functions and strings:
+
+PERFORM
+Used functions and strings:
+NO-M-WINNER-VERB? 5393
+
+SEE-VERB?
+Used functions and strings:
+
+CANT-UNDO
+Used functions and strings:
+
+META-LOC
+Used functions and strings:
+
+QCONTEXT-GOOD?
+Used functions and strings:
+
+TELL-SAID-TO
+Used functions and strings:
+
+FIND-A-WINNER
+Used functions and strings:
+
+NO-M-WINNER-VERB?
+Used functions and strings:
+
+TELL-PRONOUN
+Used functions and strings:
+TELL-THE 1107
+
+FIX-HIM-HER-IT
+Used functions and strings:
+EVERYWHERE-VERB? 2729
+MORE-SPECIFIC 5303
+
+VERB-ALL-TEST
+Used functions and strings:
+
+V-PDEBUG
+Used functions and strings:
+
+MORE-SPECIFIC
+Used functions and strings:
+
+INSERT-WHAT
+Used functions and strings:
+
+RED-CANDO
+Used functions and strings:
+GET-SYNTAX 3084
+PMEM? 73
+PARSER-ERROR 2370
+DETERMINE-OBJ 3483
+
+RED-NOT
+Used functions and strings:
+
+RED-BE
+Used functions and strings:
+
+RED-SQBN
+Used functions and strings:
+DETERMINE-SUBJ 4832
+
+P-PP-PREP
+Used functions and strings:
+
+P-PP-OBJ
+Used functions and strings:
+
+RED-SNBAP
+Used functions and strings:
+DETERMINE-OBJ 3483
+REDUCE-LOCATION 3392
+DO-PMEM-ALLOC 85
+DETERMINE-SUBJ 4832
+
+RED-SNBP
+Used functions and strings:
+REDUCE-LOCATION 3392
+DO-PMEM-ALLOC 85
+DETERMINE-SUBJ 4832
+
+RED-SBNP
+Used functions and strings:
+EXCH-4-5-Q 4734
+
+RED-SNBA
+Used functions and strings:
+DO-PMEM-ALLOC 85
+DETERMINE-SUBJ 4832
+
+RED-SBNA
+Used functions and strings:
+EXCH-4-5-Q 4734
+
+DETERMINE-SUBJ
+Used functions and strings:
+DETERMINE-OBJ 3483
+GET-SYNTAX 3084
+PARSER-ERROR 2370
+
+RED-SNBN
+Used functions and strings:
+PARSER-ERROR 2370
+DETERMINE-OBJ 3483
+
+RED-SBNN
+Used functions and strings:
+EXCH-4-5-Q 4734
+
+EXCH-4-5-Q
+Used functions and strings:
+PMEM? 73
+
+RED-BE-FORM
+Used functions and strings:
+
+RED-QUOTE
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+RED-ADJ
+Used functions and strings:
+PMEM? 73
+DO-PMEM-ALLOC 85
+
+RED-POSS
+Used functions and strings:
+PARSER-ERROR 2370
+
+RED-PP
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+RED-NPP
+Used functions and strings:
+DO-PMEM-ALLOC 85
+REDUCE-LOCATION 3392
+REDUCE-EXCEPTION 3363
+PMEM? 73
+PARSER-ERROR 2370
+
+RED-QN
+Used functions and strings:
+GET-QUANTITY 4455
+
+GET-QUANTITY
+Used functions and strings:
+
+GET-QUANTITY-WORD
+Used functions and strings:
+
+RED-QT
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+RED-OF
+Used functions and strings:
+
+RED-NP
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+RED-VP
+Used functions and strings:
+
+HACK-TELL-1
+Used functions and strings:
+
+HACK-TELL
+Used functions and strings:
+IGNORE-FIRST-WORD 2167
+PARSER-ERROR 2370
+DETERMINE-OBJ 3483
+GET-SYNTAX 3084
+
+RED-PERS
+Used functions and strings:
+
+RED-O-NP
+Used functions and strings:
+INSERT-NP 4016
+RED-O-ADJ 3974
+TEST-SR 4055
+
+TEST-SR
+Used functions and strings:
+MATCH-OBJECT 2565
+NUMERIC-ADJ? 3654
+DO-PMEM-ALLOC 85
+
+INSERT-NP
+Used functions and strings:
+
+RED-O-PP
+Used functions and strings:
+
+RED-O-ADJ
+Used functions and strings:
+
+DO-ORPHAN-TEST
+Used functions and strings:
+
+DETERMINE-NP-XFER
+Used functions and strings:
+
+READY-TO-DISAMBIGUATE?
+Used functions and strings:
+
+FIND-OWNERS
+Used functions and strings:
+FIND-OWNERS 3929
+MATCH-OBJECT 2565
+
+DET-NP-OWNEE?
+Used functions and strings:
+
+DET-NP-NOT-HERE?
+Used functions and strings:
+NOT-HERE-VERB? 3056
+
+DETERMINE-NP
+Used functions and strings:
+CHECK-DIR-ADJS 3619
+DO-PMEM-ALLOC 85
+FIND-OBJECTS 2846
+NUMERIC-ADJ? 3654
+PMEM? 73
+PARSER-ERROR 2370
+
+NUMERIC-ADJ?
+Used functions and strings:
+
+CHECK-DIR-ADJS
+Used functions and strings:
+MATCH-OBJECT 2565
+
+DETERMINE-OBJ
+Used functions and strings:
+PARSER-ERROR 2370
+DO-PMEM-ALLOC 85
+FIND-OBJECTS 2846
+
+REDUCE-LOCATION
+Used functions and strings:
+PARSER-ERROR 2370
+DO-PMEM-ALLOC 85
+FIND-OBJECTS 2846
+
+REDUCE-EXCEPTION
+Used functions and strings:
+PARSER-ERROR 2370
+DO-PMEM-ALLOC 85
+REDUCE-EXCEPT-IT 3354
+IREDUCE-EXCEPTION 3343
+
+REDUCE-EXCEPT-IT
+Used functions and strings:
+PARSER-ERROR 2370
+
+IREDUCE-EXCEPTION
+Used functions and strings:
+
+RED-SP
+Used functions and strings:
+
+RED-SVD
+Used functions and strings:
+RED-SD 1348
+
+RED-SVPNPN
+Used functions and strings:
+RED-SVPNN 3259
+
+RED-SVPNN
+Used functions and strings:
+GET-SYNTAX 3084
+PARSER-ERROR 2370
+ROOT-VERB 3158
+
+RED-SVNPN
+Used functions and strings:
+
+RED-SVNP
+Used functions and strings:
+RED-SVN 3171
+
+RED-SVN
+Used functions and strings:
+RED-SD 1348
+PARSER-ERROR 2370
+GET-SYNTAX 3084
+ROOT-VERB 3158
+
+ROOT-VERB
+Used functions and strings:
+
+RED-SV
+Used functions and strings:
+GET-SYNTAX 3084
+
+GET-SYNTAX
+Used functions and strings:
+
+RED-PART
+Used functions and strings:
+
+RED-FCN
+Used functions and strings:
+
+NOT-HERE-VERB?
+Used functions and strings:
+
+TEST-THINGS
+Used functions and strings:
+ADD-OBJECT 2665
+
+FIND-OBJECTS
+Used functions and strings:
+FIND-OBJECTS 2846
+EXCLUDE-HERE-OBJECT? 2845
+SEARCH-IN-LG? 2844
+MATCH-OBJECT 2565
+DO-PMEM-ALLOC 85
+FIND-DESCENDANTS 2517
+
+EXCLUDE-HERE-OBJECT?
+Used functions and strings:
+
+SEARCH-IN-LG?
+Used functions and strings:
+
+CHECK-ADJS
+Used functions and strings:
+CHECK-ADJS-THERE? 2760
+
+CHECK-ADJS-THERE?
+Used functions and strings:
+
+MULTIPLE-EXCEPTION?
+Used functions and strings:
+EVERYWHERE-VERB? 2729
+
+EVERYWHERE-VERB?
+Used functions and strings:
+
+NOT-IN-FIND-RES?
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+ADD-OBJECT
+Used functions and strings:
+
+TEST-OBJECT
+Used functions and strings:
+
+MATCH-OBJECT
+Used functions and strings:
+INVALID-OBJECT? 2564
+EXCLUDED? 2545
+
+INVALID-OBJECT?
+Used functions and strings:
+
+EXCLUDED?
+Used functions and strings:
+
+FIND-DESCENDANTS
+Used functions and strings:
+FIND-DESCENDANTS 2517
+
+DO-IT-AGAIN
+Used functions and strings:
+
+TELL-GWIM-MSG
+Used functions and strings:
+PRINT-VOCAB-WORD 2258
+
+CHANGE-LEXV
+Used functions and strings:
+
+NUMBER?
+Used functions and strings:
+
+BUZZER-WORD?
+Used functions and strings:
+
+PARSER-ERROR
+Used functions and strings:
+NP-SAVE 2332
+PMEM? 73
+
+NP-SAVE
+Used functions and strings:
+
+DO-AGAIN
+Used functions and strings:
+
+DO-OOPS
+Used functions and strings:
+
+PRINT-VOCAB-WORD
+Used functions and strings:
+
+WORD-PRINT
+Used functions and strings:
+
+UNKNOWN-WORD
+Used functions and strings:
+
+BEG-PARDON
+Used functions and strings:
+
+P-NO-MEM-ROUTINE
+Used functions and strings:
+
+MAIN-LOOP-IT
+Used functions and strings:
+
+FIX-QUOTATIONS
+Used functions and strings:
+
+IGNORE-FIRST-WORD
+Used functions and strings:
+
+LIT?
+Used functions and strings:
+
+QCONTEXT-CHECK
+Used functions and strings:
+
+MAIN-LOOP-1
+Used functions and strings:
+GAME-VERB? 1339
+PARSER 1165
+
+MAIN-LOOP
+Used functions and strings:
+
+BE-PATIENT
+Used functions and strings:
+
+GET-NONTERMINAL-ACTION
+Used functions and strings:
+
+GET-TERMINAL-ACTION
+Used functions and strings:
+
+PARSE-SENTENCE
+Used functions and strings:
+P-P 1368
+PEEK-PSTACK 64
+
+PARSE-IT
+Used functions and strings:
+PMEM-RESET 77
+
+P-P
+Used functions and strings:
+P-P 1368
+PMEM? 73
+
+RED-SD
+Used functions and strings:
+DO-PMEM-ALLOC 85
+
+GAME-VERB?
+Used functions and strings:
+
+PARSER
+Used functions and strings:
+TELL-THE 1107
+NAKED-DIR? 1138
+EXPAND-BE-CONTRACTIONS 1039
+READ-INPUT 564
+UPDATE-STATUS-LINE 258
+PMEM-RESET 77
+
+NAKED-DIR?
+Used functions and strings:
+
+TELL-CTHE
+Used functions and strings:
+TELL-CTHE 1122
+
+TELL-THE
+Used functions and strings:
+TELL-THE 1107
+
+EXPAND-BE-CONTRACTIONS
+Used functions and strings:
+SPECIAL-CONTRACTION? 1038
+
+SPECIAL-CONTRACTION?
+Used functions and strings:
+
+READ-INPUT
+Used functions and strings:
+RT-GET-PREPS 411
+RT-FREE-MEM 505
+RT-STOP-READ 517
+RT-PRINT-MENU-ENTRY 356
+MOUSE-INPUT? 519
+RT-HLIGHT-MENU 383
+RT-PRINT-MENU 337
+RT-DO-OBJECTS 477
+
+MOUSE-INPUT?
+Used functions and strings:
+
+RT-STOP-READ
+Used functions and strings:
+
+RT-FREE-MEM
+Used functions and strings:
+
+RT-GET-MEM
+Used functions and strings:
+
+RT-DO-OBJECTS
+Used functions and strings:
+RT-GET-OBJS 448
+
+RT-GET-OBJS
+Used functions and strings:
+RT-GET-OBJS 448
+
+RT-GET-PREPS
+Used functions and strings:
+
+RT-HLIGHT-MENU
+Used functions and strings:
+RT-PRINT-MENU-ENTRY 356
+
+RT-PRINT-MENU-ENTRY
+Used functions and strings:
+
+RT-PRINT-MENU
+Used functions and strings:
+
+UPDATE-STATUS-LINE
+Used functions and strings:
+
+INIT-STATUS-LINE
+Used functions and strings:
+
+DO-PMEM-ALLOC
+Used functions and strings:
+
+PMEM-RESET
+Used functions and strings:
+
+PMEM?
+Used functions and strings:
+
+PEEK-PSTACK
+Used functions and strings:
+

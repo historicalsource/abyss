@@ -1,0 +1,42 @@
+makepicf of 3/14/89 11:50.
+Generating picture file for mac for abyss.
+IFF format.
+Huffing enabled.
+Pictures will be huffed together.
+1:  new file.
+Extract:  (16, 8) to (135, 15).
+No background color allowed.
+1:  new picture from gauge.lbm.
+  Loading from IFF file.
+Extract:  (16, 24) to (135, 31).
+No background color allowed.
+2:  new picture from gauge.lbm.
+  Loading from IFF file.
+Extract:  (16, 40) to (135, 47).
+No background color allowed.
+3:  new picture from gauge.lbm.
+  Loading from IFF file.
+Extract:  (16, 56) to (135, 63).
+No background color allowed.
+4:  new picture from gauge.lbm.
+  Loading from IFF file.
+Extract:  (44, 73) to (45, 78).
+No background color allowed.
+5:  new picture from gauge.lbm.
+  Loading from IFF file.
+Extract:  (58, 73) to (59, 78).
+No background color allowed.
+6:  new picture from gauge.lbm.
+  Loading from IFF file.
+Opening variable file abyss-pix.zil.
+6 pictures; 1 file.
+17152 allocated so far.
+Building file 1; 6 pictures.
+Writing picture files to /home/development/curpix.
+File version is 1.
+File size is 476.
+3864 pixels; 92 picture data; 384 overhead.
+188 bytes huffed to 92.
+Checksum: 4d43
+Used 6
+Elapsed time 8

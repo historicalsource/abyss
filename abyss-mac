@@ -1,0 +1,11 @@
+File 1:  6 pictures.
+  ID    Pixels   RLE  Huff   Name
+   1       960    51    25 GAUGE.LBM
+   2       960    42    20 GAUGE.LBM
+   3       960    51    25 GAUGE.LBM
+   4       960    36    16 GAUGE.LBM
+   5        12     4     3 GAUGE.LBM
+   6        12     4     3 GAUGE.LBM
+
+
+Segment      Size

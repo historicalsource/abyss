@@ -1,0 +1,8 @@
+abyss -c -h -t
+.file 1 *
+1 gauge.lbm		-x 016 008 135 015 -0	;"Oxygen gauge"
+2 gauge.lbm		-x 016 024 135 031 -0	;"CO2 gauge"
+3 gauge.lbm		-x 016 040 135 047 -0	;"Nitrogen gauge"
+4 gauge.lbm		-x 016 056 135 063 -0	;"Helium gauge"
+5 gauge.lbm		-x 044 073 045 078 -0	;"Needle (dark)"
+6 gauge.lbm		-x 058 073 059 078 -0	;"Needle (light)"

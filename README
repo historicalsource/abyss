@@ -1,0 +1,21 @@
+A few notes on the walk-thru version of The Abyss.
+ 
+The game currently supports only the correct instructions to
+make it through to the end. Doing something other than what is
+required may result in unexpected results (and may void the
+warranty).
+ 
+Two 'cheat' verbs are required to get through the game. When you
+oxygen in the breathing mix gets low, or when the nitrogen level
+is high, after solving the stopper puzzle, you must use the $AIR
+command to restore to breathing mix to nominal values. Also,
+when you trap Coffey in the compression chamber, you must use
+the $NITROGEN command to get him to say the wiring code
+mnemonic.
+ 
+When the crane crashes, you have enough time to do all the
+things yourself, and in fact cannot ask anyone else to do
+something for you.
+ 
+The helium descrambler puzzle is not yet implemented.
+ 

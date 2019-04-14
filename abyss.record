@@ -1,0 +1,946 @@
+ZILCH of 3/2/89 12:41
+
+Combined ZIL Compiler Ver 2.0 (MIM)
+-----------------------------------
+
+Incremental compilation disabled, because top-level ZIL file changed.
+
+Input file: /USR/DEVELOPMENT/ABYSS/ABYSS.ZIL
+[Object numbers assigned rooms first]
+
+[Zaps always go to current directory]
+
+[YZIP instructions]
+
+Loading /USR/DEVELOPMENT/ABYSS/DEFS.ZIL and compiling it.
+XFLOAD /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PARSER.REST.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/CONSTANTS.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PSTACK.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: PEEK-PSTACK
+End segment 0
+Abstracting PSTACK to /USR/DEVELOPMENT/ABYSS/PSTACK.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PMEM.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: PMEM?
+Compiling routine: PMEM-RESET
+Compiling routine: DO-PMEM-ALLOC
+End segment 0
+Abstracting PMEM to /USR/DEVELOPMENT/ABYSS/PMEM.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PDEFS.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/ABYSS/DEFS2.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PARSER.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: INIT-STATUS-LINE
+Compiling routine: UPDATE-STATUS-LINE
+Compiling routine: RT-PRINT-MENU
+Compiling routine: RT-PRINT-MENU-ENTRY
+Compiling routine: RT-HLIGHT-MENU
+Compiling routine: RT-GET-PREPS
+Compiling routine: RT-GET-OBJS
+Compiling routine: RT-DO-OBJECTS
+Compiling routine: RT-GET-MEM
+Compiling routine: RT-FREE-MEM
+Compiling routine: RT-STOP-READ
+Compiling routine: MOUSE-INPUT?
+Compiling routine: READ-INPUT
+Compiling routine: SPECIAL-CONTRACTION?
+Compiling routine: EXPAND-BE-CONTRACTIONS
+Compiling routine: TELL-THE
+Compiling routine: TELL-CTHE
+Compiling routine: NAKED-DIR?
+Compiling routine: PARSER
+Compiling routine: GAME-VERB?
+Compiling routine: RED-SD
+Compiling routine: P-P
+Compiling routine: PARSE-IT
+Compiling routine: PARSE-SENTENCE
+Compiling routine: GET-TERMINAL-ACTION
+Compiling routine: GET-NONTERMINAL-ACTION
+Compiling routine: BE-PATIENT
+Compiling routine: MAIN-LOOP
+Compiling routine: MAIN-LOOP-1
+Compiling routine: QCONTEXT-CHECK
+Compiling routine: LIT?
+Compiling routine: IGNORE-FIRST-WORD
+Compiling routine: FIX-QUOTATIONS
+Compiling routine: MAIN-LOOP-IT
+Compiling routine: P-NO-MEM-ROUTINE
+Compiling routine: BEG-PARDON
+Compiling routine: UNKNOWN-WORD
+Compiling routine: WORD-PRINT
+Compiling routine: PRINT-VOCAB-WORD
+Compiling routine: DO-OOPS
+Compiling routine: DO-AGAIN
+Compiling routine: NP-SAVE
+Compiling routine: PARSER-ERROR
+Compiling routine: BUZZER-WORD?
+Compiling routine: NUMBER?
+Compiling routine: CHANGE-LEXV
+Compiling routine: TELL-GWIM-MSG
+Compiling routine: DO-IT-AGAIN
+End segment 0
+Abstracting PARSER to /USR/DEVELOPMENT/ABYSS/PARSER.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/FIND.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: FIND-DESCENDANTS
+Compiling routine: EXCLUDED?
+Compiling routine: INVALID-OBJECT?
+Compiling routine: MATCH-OBJECT
+Compiling routine: TEST-OBJECT
+Compiling routine: ADD-OBJECT
+Compiling routine: NOT-IN-FIND-RES?
+Compiling routine: EVERYWHERE-VERB?
+Compiling routine: MULTIPLE-EXCEPTION?
+Compiling routine: CHECK-ADJS-THERE?
+Compiling routine: CHECK-ADJS
+Compiling routine: SEARCH-IN-LG?
+Compiling routine: EXCLUDE-HERE-OBJECT?
+Compiling routine: FIND-OBJECTS
+Compiling routine: TEST-THINGS
+End segment 0
+Abstracting FIND to /USR/DEVELOPMENT/ABYSS/FIND.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/REDS.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: NOT-HERE-VERB?
+Compiling routine: RED-FCN
+Compiling routine: RED-PART
+Compiling routine: GET-SYNTAX
+Compiling routine: RED-SV
+Compiling routine: ROOT-VERB
+Compiling routine: RED-SVN
+Compiling routine: RED-SVNP
+Compiling routine: RED-SVNPN
+Compiling routine: RED-SVPNN
+Compiling routine: RED-SVPNPN
+Compiling routine: RED-SVD
+Compiling routine: RED-SP
+Compiling routine: IREDUCE-EXCEPTION
+Compiling routine: REDUCE-EXCEPT-IT
+Compiling routine: REDUCE-EXCEPTION
+Compiling routine: REDUCE-LOCATION
+Compiling routine: DETERMINE-OBJ
+Compiling routine: CHECK-DIR-ADJS
+Compiling routine: NUMERIC-ADJ?
+Compiling routine: DETERMINE-NP
+Compiling routine: DET-NP-NOT-HERE?
+Compiling routine: DET-NP-OWNEE?
+Compiling routine: FIND-OWNERS
+Compiling routine: READY-TO-DISAMBIGUATE?
+Compiling routine: DETERMINE-NP-XFER
+Compiling routine: DO-ORPHAN-TEST
+Compiling routine: RED-O-ADJ
+Compiling routine: RED-O-PP
+Compiling routine: INSERT-NP
+Compiling routine: TEST-SR
+Compiling routine: RED-O-NP
+Compiling routine: RED-PERS
+Compiling routine: HACK-TELL
+Compiling routine: HACK-TELL-1
+Compiling routine: RED-VP
+Compiling routine: RED-NP
+Compiling routine: RED-OF
+Compiling routine: RED-QT
+Compiling routine: GET-QUANTITY-WORD
+Compiling routine: GET-QUANTITY
+Compiling routine: RED-QN
+Compiling routine: RED-NPP
+Compiling routine: RED-PP
+Compiling routine: RED-POSS
+Compiling routine: RED-ADJ
+Compiling routine: RED-QUOTE
+End segment 0
+Abstracting REDS to /USR/DEVELOPMENT/ABYSS/REDS.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/BREDS.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: RED-BE-FORM
+Compiling routine: EXCH-4-5-Q
+Compiling routine: RED-SBNN
+Compiling routine: RED-SNBN
+Compiling routine: DETERMINE-SUBJ
+Compiling routine: RED-SBNA
+Compiling routine: RED-SNBA
+Compiling routine: RED-SBNP
+Compiling routine: RED-SNBP
+Compiling routine: RED-SNBAP
+Compiling routine: P-PP-OBJ
+Compiling routine: P-PP-PREP
+Compiling routine: RED-SQBN
+Compiling routine: RED-BE
+Compiling routine: RED-NOT
+Compiling routine: RED-CANDO
+Compiling routine: INSERT-WHAT
+End segment 0
+Abstracting BREDS to /USR/DEVELOPMENT/ABYSS/BREDS.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/GRAM.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/TOP.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: MORE-SPECIFIC
+Compiling routine: V-PDEBUG
+Compiling routine: VERB-ALL-TEST
+Compiling routine: FIX-HIM-HER-IT
+Compiling routine: TELL-PRONOUN
+Compiling routine: NO-M-WINNER-VERB?
+Compiling routine: FIND-A-WINNER
+Compiling routine: TELL-SAID-TO
+Compiling routine: QCONTEXT-GOOD?
+Compiling routine: META-LOC
+Compiling routine: CANT-UNDO
+Compiling routine: SEE-VERB?
+Compiling routine: PERFORM
+Compiling routine: TELL-TOO-DARK
+Compiling routine: ITAKE-CHECK
+Compiling routine: TELL-D-LOC
+Compiling routine: D-APPLY
+Compiling routine: CAPITAL-NOUN?
+Compiling routine: NOT-HERE
+Compiling routine: SPEAKING-VERB?
+Compiling routine: GET-OWNER
+Compiling routine: GET-NP
+Compiling routine: NOUN-USED?
+Compiling routine: ADJ-USED?
+End segment 0
+Abstracting TOP to /USR/DEVELOPMENT/ABYSS/TOP.
+Loading /USR/DEVELOPMENT/INTERLOGIC/ZILLIB/PARSER/PRARE.ZIL and compiling it.
+
+Start segment 0
+Compiling routine: TOO-MANY-NEW
+Compiling routine: NAKED-OOPS
+Compiling routine: CANT-OOPS
+Compiling routine: CANT-AGAIN
+Compiling routine: CANT-USE-MULTIPLE
+Compiling routine: MAKE-ROOM-FOR-TOKENS
+Compiling routine: REPLACE-ONE-TOKEN
+Compiling routine: V-$REFRESH
+Compiling routine: PRINT-INTQUOTE
+Compiling routine: PRINT-LEXV
+Compiling routine: COPY-INPUT
+End segment 0
+Start segment 0
+Compiling routine: BUFFER-PRINT
+Compiling routine: CAPITALIZE
+Compiling routine: PRINT-PARSER-FAILURE
+Compiling routine: NAKED-ADJECTIVE?
+Compiling routine: CHANGE-AND-TO-THEN?
+Compiling routine: DONT-UNDERSTAND
+Compiling routine: MISSING
+Compiling routine: CANT-FIND-OBJECT
+Compiling routine: NP-CANT-SEE
+Compiling routine: WINNER-SAYS-WHICH?
+Compiling routine: WHICH-LIST?
+Compiling routine: WHICH-PRINT
+Compiling routine: NP-PRINT
+Compiling routine: ADJS-PRINT
+Compiling routine: TOO-MANY-NOUNS
+Compiling routine: INBUF-ADD
+Compiling routine: INBUF-PRINT
+Compiling routine: YES?
+Compiling routine: SETUP-ORPHAN
+Compiling routine: SETUP-ORPHAN-NP
+Compiling routine: INSERT-ADJS
+Compiling routine: INSERT-ADJS-WD
+End segment 0
+Abstracting PRARE to /USR/DEVELOPMENT/ABYSS/PRARE.
+Loading /USR/DEVELOPMENT/ABYSS/MACROS.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/ABYSS/MISC.ZIL and compiling it.
+Compiling routine: VISIBLE?
+Compiling routine: CLOSED?
+Compiling routine: ACCESSIBLE?
+Compiling routine: RT-PRINT-DESC
+Compiling routine: RT-PRINT-ARTICLE
+Compiling routine: RT-PRINT-OBJ
+Compiling routine: RT-PRINT-VERB
+Compiling routine: THIS-IS-IT
+Compiling routine: RT-IN-ON-MSG
+Compiling routine: RT-OUT-OFF-MSG
+Compiling routine: RT-OPEN-MSG
+Compiling routine: TOUCH-VERB?
+Compiling routine: CLOCKER
+Compiling routine: RT-QUEUE
+Compiling routine: RT-DEQUEUE
+Compiling routine: RT-IS-QUEUED?
+Compiling routine: C-PIXELS
+Compiling routine: L-PIXELS
+Compiling routine: PIXELS-C
+Compiling routine: PIXELS-L
+Compiling routine: CCURSET
+Compiling routine: CCURGET
+Compiling routine: CSPLIT
+Compiling routine: CWINPOS
+Compiling routine: CWINSIZE
+Compiling routine: CSCROLL
+Compiling routine: RT-SCRIPT-INBUF
+Compiling routine: GO
+Abstracting MISC to /USR/DEVELOPMENT/ABYSS/MISC.
+Loading /USR/DEVELOPMENT/ABYSS/GAS-MIX.ZIL and compiling it.
+
+Compiling routine: V-$SCRUB
+Compiling routine: V-$AIR
+Compiling routine: RT-NUM-DIGITS
+Compiling routine: RT-PRINT-FLOAT
+Compiling routine: RT-NITROGEN-MSG
+Compiling routine: RT-OXYGEN-MSG
+Compiling routine: RT-CO2-MSG
+Compiling routine: RT-I-GAS-MIX
+Compiling routine: V-$HEAT
+Compiling routine: RT-TH-THERMOMETER
+Compiling routine: RT-TEMP-MSG
+Compiling routine: RT-I-DEEPCORE-TEMP
+Compiling routine: RT-I-TEMP
+Abstracting GAS-MIX to /USR/DEVELOPMENT/ABYSS/GAS-MIX.
+Loading /USR/DEVELOPMENT/ABYSS/SYNTAX.ZIL and compiling it.
+Loading /USR/DEVELOPMENT/ABYSS/VERBS.ZIL and compiling it.
+Compiling routine: V-DESC-LEVEL
+Compiling routine: V-SCRIPT
+Compiling routine: V-VERIFY
+Compiling routine: V-COMMAND
+Compiling routine: V-RECORD
+Compiling routine: V-UNRECORD
+Compiling routine: V-INVENTORY
+Compiling routine: V-QUIT
+Compiling routine: RT-FAILED-MSG
+Compiling routine: V-RESTART
+Compiling routine: V-SAVE
+Compiling routine: V-RESTORE
+Compiling routine: RT-PRINT-CONTENTS
+Compiling routine: RT-DESCRIBE-OBJECTS
+Compiling routine: RT-DESCRIBE-ROOM
+Compiling routine: NOT-HOLDING?
+Compiling routine: HELD?
+Compiling routine: TOO-DARK
+Compiling routine: V-ASK-ABOUT
+Compiling routine: V-ATTACH
+Compiling routine: V-CLOSE
+Compiling routine: V-CUT
+Compiling routine: IDROP
+Compiling routine: V-DROP
+Compiling routine: PRE-EMPTY
+Compiling routine: V-EMPTY
+Compiling routine: RT-EMPTY-MSG
+Compiling routine: V-EMPTY-FROM
+Compiling routine: V-ENTER
+Compiling routine: V-EXIT
+Compiling routine: RT-NOT-IN-ROOM-MSG
+Compiling routine: RT-DO-WALK
+Compiling routine: V-EXAMINE
+Compiling routine: RT-NOTHING-SPECIAL-MSG
+Compiling routine: V-EXTINGUISH
+Compiling routine: V-FOLLOW
+Compiling routine: V-GIVE
+Compiling routine: V-GIVE-SWP
+Compiling routine: V-HIT
+Compiling routine: V-INFLATE
+Compiling routine: V-LIFT
+Compiling routine: V-LISTEN
+Compiling routine: V-LOCK
+Compiling routine: V-LOOK
+Compiling routine: V-LOOK-BEHIND
+Compiling routine: V-LOOK-UNDER
+Compiling routine: V-LOOK-IN
+Compiling routine: TELL-CANT-FIND
+Compiling routine: V-LOOK-ON
+Compiling routine: V-MOVE
+Compiling routine: V-NO
+Compiling routine: RT-MATCH-KEY
+Compiling routine: RT-OTHER-SIDE
+Compiling routine: RT-LOCK-MSG
+Compiling routine: RT-OPEN-DOOR-MSG
+Compiling routine: V-OPEN
+Compiling routine: V-PLUG-IN
+Compiling routine: V-PULL
+Compiling routine: V-PUSH
+Compiling routine: PRE-PUT
+Compiling routine: V-PUT
+Compiling routine: TELL-FIND-NONE
+Compiling routine: PRE-PUT-IN
+Compiling routine: V-PUT-IN
+Compiling routine: RT-PUT-ON-OR-IN
+Compiling routine: RT-TOTAL-SIZE
+Compiling routine: RT-OBJ-TOO-LARGE?
+Compiling routine: RT-ROOM-IN-MSG?
+Compiling routine: RT-CHECK-MOVE-MSG?
+Compiling routine: V-REACH-BEHIND
+Compiling routine: V-REACH-IN
+Compiling routine: V-REACH-UNDER
+Compiling routine: V-READ
+Compiling routine: V-SHOW
+Compiling routine: V-SHOW-SWP
+Compiling routine: V-SIT
+Compiling routine: ITAKE
+Compiling routine: RT-DO-TAKE
+Compiling routine: PRE-TAKE
+Compiling routine: PRE-TAKE-WITH
+Compiling routine: V-TAKE
+Compiling routine: V-TAKE-WITH
+Compiling routine: V-TALK-TO
+Compiling routine: V-TELL
+Compiling routine: WONT-HELP-TO-TALK-TO
+Compiling routine: V-TELL-ABOUT
+Compiling routine: V-THANK
+Compiling routine: V-TIE-TO
+Compiling routine: V-TURN
+Compiling routine: V-TURN-OFF
+Compiling routine: V-TURN-ON
+Compiling routine: V-TURN-TO
+Compiling routine: V-UNDO
+Compiling routine: V-UNLOCK
+Compiling routine: V-UNWEAR
+Compiling routine: V-WAIT
+Compiling routine: RT-FIND-DIR
+Compiling routine: RT-FIND-ROOM
+Compiling routine: RT-SET-PUPPY
+Compiling routine: RT-CLEAR-PUPPY
+Compiling routine: V-WALK
+Compiling routine: WALK-THRU-DOOR?
+Compiling routine: RT-GOTO
+Compiling routine: RT-ENTER-ROOM
+Compiling routine: RT-ROOM-NAME-MSG
+Compiling routine: V-WALK-AROUND
+Compiling routine: V-WALK-TO
+Compiling routine: RT-WALK-WITHIN-ROOM-MSG
+Compiling routine: V-WEAR
+Compiling routine: V-WELD
+Compiling routine: V-YES
+Abstracting VERBS to /USR/DEVELOPMENT/ABYSS/VERBS.
+Loading /USR/DEVELOPMENT/ABYSS/BE.ZIL and compiling it.
+Compiling routine: V-STATEMENT
+Compiling routine: V-BE
+Compiling routine: TELL-Q-WORD
+Compiling routine: RIGHT-PREP?
+Compiling routine: IS-QUIET?
+Compiling routine: IS-OUTSIDE?
+Compiling routine: IS-OPEN?
+Compiling routine: IS-CLOSED?
+Compiling routine: IS-LOCKED?
+Compiling routine: IS-UNLOCKED?
+Compiling routine: IS-DEAD?
+Compiling routine: IS-ALIVE?
+Compiling routine: IS-HERE?
+Compiling routine: PRSO-IS
+Compiling routine: IS-PRSO-ADJ?
+Compiling routine: YES-BUT?
+Compiling routine: V-CAN?
+Compiling routine: V-MAY?
+Compiling routine: V-DO?
+Compiling routine: V-COULD?
+Compiling routine: V-WOULD?
+Compiling routine: V-SHOULD?
+Compiling routine: V-MIGHT?
+Compiling routine: V-WILL?
+Compiling routine: V-MUST?
+Compiling routine: V-BE?
+Compiling routine: V-WHO
+Compiling routine: V-WHAT
+Compiling routine: V-WHEN
+Compiling routine: V-WHERE
+Compiling routine: V-WHY
+Compiling routine: V-HOW
+Abstracting BE to /USR/DEVELOPMENT/ABYSS/BE.
+Loading /USR/DEVELOPMENT/ABYSS/SUB-BAY.ZIL and compiling it.
+
+Compiling routine: RT-RM-SUB-BAY
+Compiling routine: RT-TH-MOON-POOL
+Compiling routine: RT-TH-FIRE
+Compiling routine: RT-I-FIRE-1
+Compiling routine: RT-I-FIRE-2
+Compiling routine: RT-TH-WATER-HOSE
+Compiling routine: RT-TH-NOZZLE
+Compiling routine: RT-TH-OXYGEN-CYLINDER
+Compiling routine: RT-CH-COFFEY
+Compiling routine: RT-CH-ONE-NIGHT
+Compiling routine: RT-TH-DRY-SUIT
+Compiling routine: RT-TH-FACEPLATE
+Compiling routine: RT-TH-HELMET
+Compiling routine: RT-TH-HOOK-1
+Compiling routine: RT-TH-LIFT-BAG
+ ** Warning: Undefined variable assumed LOCAL L
+Compiling routine: RT-TH-CO2-CANNISTER
+Compiling routine: RT-TH-RED-BUTTON
+Compiling routine: RT-RM-COMPRESSION-CHAMBER
+Compiling routine: RT-LG-CHAMBER-HATCH
+Compiling routine: RT-I-LEAVE-1
+Compiling routine: RT-I-LEAVE-2
+Compiling routine: RT-I-LEAVE-3
+Compiling routine: RT-I-LEAVE-4
+Compiling routine: RT-I-RETURN-1
+Compiling routine: RT-I-RETURN-2
+Compiling routine: RT-I-RETURN-3
+Compiling routine: RT-I-RETURN-4
+Compiling routine: RT-I-UFO-MESSAGE
+Compiling routine: RT-RM-CAB-THREE
+Compiling routine: RT-OUT-CAB
+Compiling routine: RT-I-CAB-FIXED
+Compiling routine: RT-TH-CAB-HOOKAH
+Compiling routine: RT-RM-GAS-MIX-ROOM
+Compiling routine: RT-RM-CORRIDOR
+Compiling routine: RT-TH-PANEL
+Compiling routine: RT-RM-LADDER-A2
+Compiling routine: RT-RM-LOUNGE
+Compiling routine: RT-RM-INFIRMARY
+Compiling routine: RT-RM-MESS-HALL
+Compiling routine: RT-RM-GALLEY
+Compiling routine: RT-RM-PANTRY
+Compiling routine: RT-TH-HOOK-2
+Compiling routine: RT-TH-GAME-BAG
+Compiling routine: RT-RM-WALDORF
+Compiling routine: RT-RM-PERSONAL-STORAGE-1
+Compiling routine: RT-RM-ZOOTOWN
+Compiling routine: RT-RM-LADDER-C2
+Compiling routine: RT-TH-S-BILGE-BUTT
+Compiling routine: RT-RM-LADDER-A1
+Compiling routine: RT-RM-LAUNDRY
+Compiling routine: RT-RM-PT-LIFE-SUPPORT
+Compiling routine: RT-RM-COMPRESSOR-ROOM
+Compiling routine: RT-TH-COMPRESSOR
+Compiling routine: RT-RM-LADDER-D1
+Compiling routine: RT-RM-TOOL-PUSHER-OFFICE
+Compiling routine: RT-RM-DRILL-ROOM
+Compiling routine: RT-RM-LADDER-B1
+Compiling routine: RT-RM-SB-BATTERY-ROOM
+Compiling routine: RT-RM-SB-HEAD
+Compiling routine: RT-RM-SB-LIFE-SUPPORT
+Compiling routine: RT-RM-PUMP-ROOM
+Compiling routine: RT-RM-FRESH-WATER-STORAGE
+Compiling routine: RT-RM-LADDER-C1
+Compiling routine: RT-RM-LADDER-A3
+Compiling routine: RT-RM-PT-HEAD
+Compiling routine: RT-RM-MOTEL-QUICK
+Compiling routine: RT-RM-PERSONAL-STORAGE-2
+Compiling routine: RT-RM-SWAMP
+Compiling routine: RT-RM-LADDER-D3
+Compiling routine: RT-RM-LADDER-B3
+Compiling routine: RT-RM-SB-OBS-DECK
+Compiling routine: RT-RM-COMPUTER-CENTER
+Compiling routine: RT-RM-ELECTRONICS-SHOP
+Compiling routine: RT-TH-ELEC-SHOP-DRAWER
+Compiling routine: RT-RM-LAB
+Compiling routine: RT-RM-TAPE-LIBRARY
+Compiling routine: RT-RM-LADDER-C3
+Abstracting SUB-BAY to /USR/DEVELOPMENT/ABYSS/SUB-BAY.
+Loading /USR/DEVELOPMENT/ABYSS/COMMAND.ZIL and compiling it.
+
+Compiling routine: RT-RM-COMMAND-MODULE
+Compiling routine: RT-TH-MONITORS
+Compiling routine: RT-TH-COMMAND-CHAIR
+Compiling routine: RT-COMMAND-MENU
+Compiling routine: RT-EMERGENCY-MENU
+ ** Warning: Undefined variable assumed LOCAL C
+ ** Warning: Undefined variable assumed LOCAL L
+Compiling routine: RT-ROV-MENU
+Compiling routine: RT-AIR-MENU
+Compiling routine: RT-GAS-LEVEL-MSG
+Compiling routine: RT-POWER-MENU
+Compiling routine: RT-LIGHT-MENU
+Compiling routine: RT-SUPPORT-MENU
+ ** Warning: Undefined variable assumed LOCAL C
+ ** Warning: Undefined variable assumed LOCAL L
+Compiling routine: RT-PUMP-MENU
+ ** Warning: Undefined variable assumed LOCAL C
+ ** Warning: Undefined variable assumed LOCAL L
+Compiling routine: RT-TH-DESCRAMBLER-CONTROL-BOX
+Abstracting COMMAND to /USR/DEVELOPMENT/ABYSS/COMMAND.
+Loading /USR/DEVELOPMENT/ABYSS/MONTANA.ZIL and compiling it.
+
+Compiling routine: RT-RM-MIDSHIP-HATCH
+Compiling routine: RT-LG-MIDSHIP-HATCH
+Compiling routine: RT-TO-TRENCH-BOTTOM
+Compiling routine: RT-RM-MISSILE-HATCH
+Compiling routine: RT-TH-MISSILE
+Compiling routine: RT-TH-MISSILE-TIMER
+Compiling routine: RT-TH-MISSILE-PANEL
+Compiling routine: RT-TH-WIRES
+Compiling routine: RT-TH-WIRE
+Compiling routine: RT-CORRECT-WIRE?
+Compiling routine: RT-TH-WIRE-CUTTERS
+Compiling routine: RT-I-INTO-TRENCH-1
+Compiling routine: RT-I-INTO-TRENCH-2
+Compiling routine: RT-I-OUT-OF-AIR-1
+Compiling routine: RT-I-OUT-OF-AIR-2
+Compiling routine: RT-RM-BOW
+Compiling routine: RT-RM-TORPEDO-ROOM
+Compiling routine: RT-RM-ENGINE-ROOM
+Compiling routine: RT-RM-MISSILE-ROOM
+Compiling routine: RT-TH-MISSILE-ACCESS-KEY
+Compiling routine: RT-RM-ATTACK-CENTER
+Compiling routine: RT-RM-SONAR-ROOM
+Compiling routine: RT-RM-COMM-ROOM
+Compiling routine: RT-THRU-BUCKLED-DOOR
+Compiling routine: RT-LG-BUCKLED-DOOR
+Compiling routine: RT-RM-SUB-CORRIDOR
+Compiling routine: RT-RM-CAPTAINS-ROOM
+Compiling routine: RT-TH-PHOTOGRAPH
+Compiling routine: RT-TH-SAFE
+Compiling routine: RT-TH-PLASTIC-CARD
+Compiling routine: RT-TH-PLASTIQUE
+Compiling routine: RT-TH-DETONATOR
+Compiling routine: RT-I-DETONATOR
+Abstracting MONTANA to /USR/DEVELOPMENT/ABYSS/MONTANA.
+Loading /USR/DEVELOPMENT/ABYSS/RETURN1.ZIL and compiling it.
+
+Compiling routine: RT-TH-CATFISH-LOCKER
+Compiling routine: RT-TH-STEEL-BOX
+Compiling routine: RT-TH-CLUE-PAPER
+Compiling routine: RT-TH-STEEL-KEY
+Compiling routine: RT-TH-DRYER
+Compiling routine: RT-TH-PASSPORT
+Compiling routine: RT-TH-DISCHARGE
+Abstracting RETURN1 to /USR/DEVELOPMENT/ABYSS/RETURN1.
+Loading /USR/DEVELOPMENT/ABYSS/RETURN2.ZIL and compiling it.
+
+Compiling routine: RT-TH-GUN
+Compiling routine: RT-TH-FBS-SUIT
+Compiling routine: RT-TH-DIVE-LOCKER
+Compiling routine: RT-TH-ELECTRONIC-LOCK
+Compiling routine: RT-TH-DEVICE
+Compiling routine: V-$NITROGEN
+Abstracting RETURN2 to /USR/DEVELOPMENT/ABYSS/RETURN2.
+Loading /USR/DEVELOPMENT/ABYSS/OCEAN.ZIL and compiling it.
+Compiling routine: RT-RM-UNDER-MOONPOOL
+Compiling routine: RT-RM-OCEAN-NORTH
+Compiling routine: RT-RM-OCEAN-SOUTH
+Compiling routine: RT-RM-OCEAN-WEST
+Compiling routine: RT-SWIM-TO-FROM-TRENCH
+Compiling routine: RT-RM-TROUGH-LIP
+Abstracting OCEAN to /USR/DEVELOPMENT/ABYSS/OCEAN.
+Loading /USR/DEVELOPMENT/ABYSS/CRANE.ZIL and compiling it.
+Compiling routine: RT-I-CRANE-1
+Compiling routine: RT-I-CRANE-2
+Compiling routine: RT-I-CRANE-3
+Compiling routine: RT-I-CRANE-4
+Compiling routine: RT-I-CRANE-5
+Compiling routine: RT-I-HIPPY-RETURN
+Compiling routine: RT-I-KLAXON
+Compiling routine: RT-I-BATTERY-LEAK
+Compiling routine: RT-RM-PT-BATTERY-ROOM
+Compiling routine: RT-TH-POWERCEL
+Compiling routine: RT-TH-POOL-OF-WATER
+Compiling routine: RT-RM-PT-OBS-DECK
+Compiling routine: RT-TH-CRACK
+Compiling routine: RT-WELD-CRACK
+ ** Note: Atomic argument to routine assumed constant - RT-I-BATTERY-LEAK
+
+Compiling routine: RT-TH-ARC-WELDER
+Compiling routine: RT-TH-WELDING-ROD
+Compiling routine: RT-TH-RED-CABLE
+Compiling routine: RT-TH-BLACK-CABLE
+Compiling routine: RT-TH-WELDER-SWITCH
+Compiling routine: RT-TH-WELDER-CORD
+Compiling routine: RT-RM-LADDER-D2
+Compiling routine: RT-TH-PT-BILGE-BUTTON
+Compiling routine: RT-TH-SB-BILGE-BUTTON
+Compiling routine: RT-I-CATFISH-TRAPPED
+Compiling routine: RT-RM-DIVE-GEAR-STORAGE
+Compiling routine: RT-TH-BUD-GEAR-LOCKER
+Compiling routine: RT-TH-BIG-LOCKER
+Compiling routine: RT-GN-LOCKER
+Compiling routine: RT-LG-DGS-DOOR
+Compiling routine: RT-RM-RECREATION-ROOM
+Compiling routine: RT-TH-BARBELL
+Compiling routine: RT-TH-WEIGHTS
+Compiling routine: RT-TH-LIFT-BENCH
+Compiling routine: RT-TH-TREADMILL
+Compiling routine: RT-TH-CYCLE
+Compiling routine: RT-RM-LADDER-B2
+Compiling routine: RT-TH-HYDRAULIC-HOSE
+Compiling routine: RT-TH-HYDRAULIC-FLUID
+Compiling routine: RT-LG-FLOOD-DOOR
+Compiling routine: RT-TH-KNIFE
+Abstracting CRANE to /USR/DEVELOPMENT/ABYSS/CRANE.
+Loading /USR/DEVELOPMENT/ABYSS/GLOBAL.ZIL and compiling it.
+Compiling routine: RT-GLOBAL-HERE
+Compiling routine: RT-YOU
+Compiling routine: RT-TH-HUMAN-BODY
+Compiling routine: RT-GN-BODY
+Compiling routine: RT-TH-PLAYER-BODY
+Compiling routine: RT-TH-GROUND
+Compiling routine: RT-TH-SKY
+Compiling routine: RT-LG-DEEPCORE
+Compiling routine: RT-LG-TROUGH
+Compiling routine: RT-LG-MONTANA
+Abstracting GLOBAL to /USR/DEVELOPMENT/ABYSS/GLOBAL.
+Loading /USR/DEVELOPMENT/ABYSS/UTIL.ZIL and compiling it.
+Compiling routine: V-$STEAL
+Compiling routine: V-$GOTO
+Compiling routine: V-VERSION
+Compiling routine: V-COLOR
+Compiling routine: RT-DO-COLOR
+Compiling routine: RT-PICK-COLOR
+Compiling routine: MAC-II?
+Compiling routine: Y?
+Compiling routine: RT-CHECK-ADJ
+Compiling routine: RT-UPDATE-ADJ
+Compiling routine: RT-SCORE-MSG
+Compiling routine: RT-SCORE-OBJ
+Compiling routine: V-SCORE
+Compiling routine: V-DIAGNOSE
+ ** Warning: Undefined variable assumed LOCAL M
+Compiling routine: RT-WORD-NUMBERS
+Compiling routine: RT-END-OF-GAME
+Compiling routine: RT-COMMA-MSG
+Compiling routine: FIND-FLAG-LG
+Compiling routine: FIND-FLAG
+Compiling routine: RT-ALREADY-MSG
+Compiling routine: RT-META-IN?
+Compiling routine: NO-NEED
+Compiling routine: RT-YOU-CANT-MSG
+Compiling routine: HAR-HAR
+Compiling routine: RT-IMPOSSIBLE-MSG
+Compiling routine: WONT-HELP
+Compiling routine: PICK-ONE
+Compiling routine: GLOBAL-IN?
+Compiling routine: RT-FIRST-YOU-MSG
+Compiling routine: RT-SEE-INSIDE?
+Compiling routine: RT-SEE-ANYTHING-IN?
+Compiling routine: RT-MOVE-ALL
+Compiling routine: RT-MOVE-ALL-BUT-WORN
+Compiling routine: RT-MOVE-ALL-WORN
+Compiling routine: RT-NOT-LIKELY-MSG
+Compiling routine: RT-NO-POINT-MSG
+Compiling routine: RT-PICK-NEXT
+Compiling routine: RT-NO-RESPONSE-MSG
+Compiling routine: RT-FOOLISH-TO-TALK?
+Compiling routine: RT-WASTE-OF-TIME-MSG
+Compiling routine: V-$P
+Compiling routine: RT-CENTER-PIC
+Compiling routine: V-$D
+Compiling routine: V-$SHOW
+Compiling routine: V-$W
+Abstracting UTIL to /USR/DEVELOPMENT/ABYSS/UTIL.
+Loading /USR/DEVELOPMENT/ABYSS/STOPPER.ZIL and compiling it.
+
+Compiling routine: RT-RM-TRI-MIX-STORAGE
+Compiling routine: RT-TH-NITROGEN-TANK
+Compiling routine: RT-TH-NIT-VALVE
+Compiling routine: RT-TH-NIT-STOPPER
+Compiling routine: RT-GET-STOPPER
+Compiling routine: RT-I-NITROGEN-LEAK
+Compiling routine: RT-TH-NIT-BASE
+Compiling routine: RT-TH-OXYGEN-TANK
+Compiling routine: RT-TH-OXY-VALVE
+Compiling routine: RT-TH-OXY-STOPPER
+Compiling routine: RT-TH-OXY-BASE
+Compiling routine: RT-TH-HELIUM-TANK
+Compiling routine: RT-TH-HEL-VALVE
+Compiling routine: RT-TH-HEL-STOPPER
+Compiling routine: RT-TH-HEL-BASE
+Compiling routine: RT-GN-TANK
+Compiling routine: RT-GN-VALVE
+Compiling routine: RT-GN-STOPPER
+Compiling routine: RT-RM-TOOL-ROOM
+Compiling routine: RT-TH-BIN
+Compiling routine: RT-TH-MAGNET
+Abstracting STOPPER to /USR/DEVELOPMENT/ABYSS/STOPPER.
+Loading /USR/DEVELOPMENT/ABYSS/ALIEN.ZIL and compiling it.
+Compiling routine: RT-RM-TRENCH-BOTTOM
+Compiling routine: RT-TH-PURPLE-BUTTON
+Compiling routine: RT-RM-ALIEN-CHAMBER
+Compiling routine: RT-TH-FUSCHIA-BUTTON
+Abstracting ALIEN to /USR/DEVELOPMENT/ABYSS/ALIEN.
+Loading /USR/DEVELOPMENT/ABYSS/ENDGAME.ZIL and compiling it.
+
+Compiling routine: RT-TH-WINDOW-BENCH
+Compiling routine: RT-TH-RED-LEVER
+Abstracting ENDGAME to /USR/DEVELOPMENT/ABYSS/ENDGAME.
+ ** Warning: Undefined Routine: DIR-VERB-PRSI?
+ ** Warning: Undefined Routine: COLLECTIVE-VERB?
+ ** Warning: Never defined - W?SWIM
+ ** Warning: Never defined - FL-TRY-TAKE
+ ** Warning: Never defined - FL-TRANSPARENT
+ ** Warning: Never defined - FL-TOUCHED
+ ** Warning: Never defined - FL-TAKEABLE
+ ** Warning: Never defined - FL-SURFACE
+ ** Warning: Never defined - FL-SEARCH
+ ** Warning: Never defined - FL-ROOMS
+ ** Warning: Never defined - FL-PLURAL
+ ** Warning: Never defined - FL-PERSON
+ ** Warning: Never defined - FL-OPEN
+ ** Warning: Never defined - FL-LIGHTED
+ ** Warning: Never defined - FL-NO-ARTICLE
+ ** Warning: Never defined - FL-INVISIBLE
+ ** Warning: Never defined - FL-FEMALE
+ ** Warning: Never defined - FL-CONTAINER
+
+Warnings: 26
+ ** Note: OBJECT has no properties: INTQUOTE
+ ** Note: OBJECT has no properties: ROOMS
+Vocabulary: 626
+
+Verbs: 102
+
+Real globals: 121
+
+CLOCK-WAIT		   GL-MOVES		      P-HER-OBJECT
+CLOCKER-RUNNING		   GL-N-LOOP		      P-HIM-OBJECT
+CURRENT-REDUCTION	   GL-NEW-TIME		      P-IT-OBJECT
+DEMO-VERSION?		   GL-NITROGEN-LEAK?	      P-LEN
+ERROR-PRIORITY		   GL-NITROGEN-MSG	      P-MULT
+ERROR-STRING		   GL-NITROGEN-QTY	      P-NOT-HERE
+GL-B-COLOR		   GL-NOUN-TBL		      P-NUMBER
+GL-BATTERY-LEAK		   GL-OXYGEN-MSG	      P-OFLAG
+GL-CAB-DOCKED?		   GL-OXYGEN-QTY	      P-OLEN
+GL-CATFISH-SPY-MSG?	   GL-PLAYER-TEMP	      P-ONE-NOUN
+GL-CLK-RUN		   GL-PREP-TBL		      P-PRSA-WORD
+GL-CO2-MSG		   GL-PUPPY		      P-PRSI
+GL-CO2-QTY		   GL-Q-MAX		      P-PRSO
+GL-COFFEY-SHOOT		   GL-Q-TBL		      P-RESPONDED
+GL-COLOR-NOTE		   GL-RETURN1-DONE?	      P-RUNNING
+GL-CORRIDOR-BLOCKED?	   GL-RETURN2-DONE?	      P-THEM-OBJECT
+GL-CRANE-DOWN?		   GL-SAFE-NUM		      P-WALK-DIR
+GL-CRANE-FALLING?	   GL-SCORE		      P-WON
+GL-DEEPCORE-TEMP	   GL-SCR-WID		      P-WORD-NUMBER
+GL-DETONATOR-TIME	   GL-SCRUBBERS-ON	      P-WORDS-AGAIN
+GL-DOOR-DIR		   GL-SL-HERE		      PARSE-SENTENCE-ACTIVATION
+
+GL-F-COLOR		   GL-SPACE-WIDTH	      PARSER-RESULT
+GL-FALLING-INTO-TRENCH?	   GL-TEMP-MSG		      PMEM-STORE-POINTER
+GL-FONT-X		   GL-VERB-TBL		      PMEM-STORE-WARN
+GL-FONT-Y		   GL-WATER-LEVEL	      PMEM-STORE-WORDS
+GL-FREE-PTR		   GL-WATER-PUMP-ON	      PMEM-WORDS-USED
+GL-HEATERS-ON		   GL-WIRE-SEQUENCE	      PRSA
+GL-HELIUM-QTY		   GL-WIRES-CUT		      PRSI
+GL-INPUT-PREP1		   HERE			      PRSI-NP
+GL-INPUT-PREP2		   IDEBUG		      PRSO
+GL-INPUT-STATE		   LAST-PSEUDO-LOC	      PRSO-NP
+GL-INPUT-TIMEOUT	   LIT			      PRSQ
+GL-INPUT-VERB		   NOW-PRSI		      PRSS
+GL-INPUT-WINNER		   OBJ-SWAP		      QCONTEXT
+GL-ITEM-NUM		   OHERE		      SEARCH-FLAGS
+GL-KLAXON-ON		   OPRSO		      SPLITS
+GL-LIFT-OBJ		   OTLEXV		      TLEXV
+GL-LOC-TRAIL		   P-CAN-UNDO		      VERBOSITY
+GL-MENU-NUM		   P-CONT		      WINNER
+GL-MOUSE-X		   P-DBUG
+GL-MOUSE-Y		   P-DIRECTION
+
+Objects: 203
+
+CH-ALIEN		    ROOMS
+CH-CATFISH		    TH-ALIEN-SHIP
+CH-COFFEY		    TH-ARC-WELDER
+CH-HIPPY		    TH-BARBELL
+CH-LINDSEY		    TH-BIG-LOCKER
+CH-ONE-NIGHT		    TH-BIN
+CH-PLAYER		    TH-BLACK-CABLE
+CH-SEALS		    TH-BLUE-WIRE
+GENERIC-OBJECTS		    TH-BUD-GEAR-LOCKER
+GLOBAL-HERE		    TH-CAB-HOOKAH
+GLOBAL-OBJECTS		    TH-CATFISH-LOCKER
+HER			    TH-CLUE-PAPER
+HIM			    TH-CO2-CANNISTER
+INTADJ			    TH-COMMAND-CHAIR
+INTDIR			    TH-COMPRESSOR
+INTNUM			    TH-CRACK
+INTPP			    TH-CYCLE
+INTQUOTE		    TH-DESCRAMBLER-CONTROL-BOX
+IT			    TH-DETONATOR
+LG-BUCKLED-DOOR		    TH-DEVICE
+LG-CHAMBER-DOOR		    TH-DISCHARGE
+LG-CHAMBER-HATCH	    TH-DIVE-LOCKER
+LG-DEEPCORE		    TH-DRY-SUIT
+LG-DGS-DOOR		    TH-DRYER
+LG-FLOOD-DOOR		    TH-ELEC-SHOP-DRAWER
+LG-MIDSHIP-HATCH	    TH-ELECTRONIC-LOCK
+LG-MONTANA		    TH-FACEPLATE
+LG-OUTLET		    TH-FBS-SUIT
+LG-TROUGH		    TH-FIRE
+LG-WALL			    TH-FLATBED
+LOCAL-GLOBALS		    TH-FUSCHIA-BUTTON
+NOT-HERE-OBJECT		    TH-GAME-BAG
+PSEUDO-OBJECT		    TH-GREEN-WIRE
+RM-ALIEN-CHAMBER	    TH-GROUND
+RM-ATTACK-CENTER	    TH-GUN
+RM-BOW			    TH-HANDS
+RM-CAB-THREE		    TH-HEAD
+RM-CAPTAINS-ROOM	    TH-HEL-STOPPER
+RM-COMM-ROOM		    TH-HEL-VALVE
+RM-COMMAND-MODULE	    TH-HELIUM-TANK
+RM-COMPRESSION-CHAMBER	    TH-HELMET
+RM-COMPRESSOR-ROOM	    TH-HOOK-1
+RM-COMPUTER-CENTER	    TH-HOOK-2
+RM-CORRIDOR		    TH-HUMAN-BODY
+RM-DIVE-GEAR-STORAGE	    TH-HYDRAULIC-FLUID
+RM-DRILL-ROOM		    TH-HYDRAULIC-HOSE
+RM-ELECTRONICS-SHOP	    TH-KNIFE
+RM-ENGINE-ROOM		    TH-LIFT-BAG
+RM-FRESH-WATER-STORAGE	    TH-LIFT-BENCH
+RM-GALLEY		    TH-MAGNET
+RM-GAS-MIX-ROOM		    TH-MISSILE
+RM-INFIRMARY		    TH-MISSILE-ACCESS-KEY
+RM-LAB			    TH-MISSILE-PANEL
+RM-LADDER-A1		    TH-MISSILE-TIMER
+RM-LADDER-A2		    TH-MONITORS
+RM-LADDER-A3		    TH-MOON-POOL
+RM-LADDER-B1		    TH-NIT-STOPPER
+RM-LADDER-B2		    TH-NIT-VALVE
+RM-LADDER-B3		    TH-NITROGEN-TANK
+RM-LADDER-C1		    TH-NOZZLE
+RM-LADDER-C2		    TH-ORANGE-WIRE
+RM-LADDER-C3		    TH-OXY-STOPPER
+RM-LADDER-D1		    TH-OXY-VALVE
+RM-LADDER-D2		    TH-OXYGEN-CYLINDER
+RM-LADDER-D3		    TH-OXYGEN-TANK
+RM-LAUNDRY		    TH-PANEL
+RM-LOUNGE		    TH-PASSPORT
+RM-MESS-HALL		    TH-PHOTOGRAPH
+RM-MIDSHIP-HATCH	    TH-PLASTIC-CARD
+RM-MISSILE-HATCH	    TH-PLASTIQUE
+RM-MISSILE-ROOM		    TH-PLAYER-BODY
+RM-MOTEL-QUICK		    TH-POOL-OF-WATER
+RM-OCEAN-NORTH		    TH-POWERCEL
+RM-OCEAN-SOUTH		    TH-PT-BILGE-BUTTON
+RM-OCEAN-WEST		    TH-PURPLE-BUTTON
+RM-PANTRY		    TH-RED-BUTTON
+RM-PERSONAL-STORAGE-1	    TH-RED-CABLE
+RM-PERSONAL-STORAGE-2	    TH-RED-LEVER
+RM-PT-BATTERY-ROOM	    TH-RED-WIRE
+RM-PT-HEAD		    TH-S-BILGE-BUTT
+RM-PT-LIFE-SUPPORT	    TH-SAFE
+RM-PT-OBS-DECK		    TH-SB-BILGE-BUTTON
+RM-PUMP-ROOM		    TH-SKY
+RM-RECREATION-ROOM	    TH-STEEL-BOX
+RM-SB-BATTERY-ROOM	    TH-STEEL-KEY
+RM-SB-HEAD		    TH-THERMOMETER
+RM-SB-LIFE-SUPPORT	    TH-TIME
+RM-SB-OBS-DECK		    TH-TREADMILL
+RM-SONAR-ROOM		    TH-UFO
+RM-SUB-BAY		    TH-WATER-HOSE
+RM-SUB-CORRIDOR		    TH-WEIGHTS
+RM-SWAMP		    TH-WELDER-CORD
+RM-TAPE-LIBRARY		    TH-WELDER-SWITCH
+RM-TOOL-PUSHER-OFFICE	    TH-WELDING-ROD
+RM-TOOL-ROOM		    TH-WHITE-WIRE
+RM-TORPEDO-ROOM		    TH-WINDOW-BENCH
+RM-TRENCH-BOTTOM	    TH-WIRE-CUTTERS
+RM-TRI-MIX-STORAGE	    TH-WIRES
+RM-TROUGH-LIP		    TH-YELLOW-WIRE
+RM-UNDER-MOONPOOL	    THEM
+RM-WALDORF		    YOU
+RM-ZOOTOWN
+
+Properties: 25
+
+P?ACTION     P?CONTFCN	  P?GLOBAL     P?OWNER	    P?STARBOARD
+P?ADJACENT   P?DOWN	  P?IN	       P?PORT	    P?SYNONYM
+P?ADJECTIVE  P?EAST	  P?MENU       P?SCORE	    P?THINGS
+P?AFT	     P?FORE	  P?NORTH      P?SIZE	    P?UP
+P?CAPACITY   P?GENERIC	  P?OUT	       P?SOUTH	    P?WEST
+
+Flags: 48
+
+FL-ALIVE	FL-CONTAINER	FL-KNIFE	FL-PERSON	FL-TRANSPARENT
+FL-ASLEEP	FL-DOOR		FL-LAMP		FL-PLURAL	FL-TRY-TAKE
+FL-AUTO-ENTER	FL-FEMALE	FL-LIGHTED	FL-READABLE	FL-VEHICLE
+FL-AUTO-OPEN	FL-HAS-DESCFCN	FL-LOCKED	FL-ROOMS	FL-VOWEL
+FL-BODY-PART	FL-HAS-LDESC	FL-NO-ALL	FL-SEARCH	FL-WATER
+FL-BROKEN	FL-HAS-SDESC	FL-NO-ARTICLE	FL-SEEN		FL-WEAPON
+FL-BURNABLE	FL-INDOORS	FL-NO-DESC	FL-SURFACE	FL-WORN
+FL-BY-HAND	FL-INSIDE	FL-ON		FL-TAKEABLE	FL-YOUR
+FL-CLOTHING	FL-INVISIBLE	FL-OPEN		FL-TOOL
+FL-COLLECTIVE	FL-KEY		FL-OPENABLE	FL-TOUCHED
